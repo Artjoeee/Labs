@@ -1,0 +1,18 @@
+#img {
+    width: 290px;
+    height: 290px;
+}
+
+figure {
+    display: block;
+    float: left;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+}
+
+figcaption {
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    empty-cells: hide;
+    border-spacing: 0px;
+    }
+
+.dark {
+    font-size: 1.2em;
+    background-color: darkblue;
+    color: white; 
+    }
+
+th, td {
+    border: 2px ridge gray;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    padding:  5px 5px 5px 5px;    
+   }
+   
+.sky {
+    background-color: #00BFFF;
+    color: white;
+   }
+
+.purp {
+    background-color: purple;
+    color: white;
+   }
+
+.gre{
+    background-color: green;
+    color: white;
+   }
+
+.top {
+    border: none;
+    font-size: 1.2em;
+   }
+
+
+

@@ -1,0 +1,17 @@
+h1+p {
+
+    background-color: yellow;
+
+}
+
+h2~p {
+
+    color: blue;
+
+}
+
+p {
+
+    font-size: 30px;
+    
+}

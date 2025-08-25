@@ -1,0 +1,32 @@
+* {
+    background-color: navajowhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.n {
+    background-color: gray;
+}
+
+.r {
+    background-color: aquamarine;
+}
+th, td {
+    border: 3px solid black;
+}
+
+.m {
+    background-color: darkseagreen;
+}
+
+.th {
+    background-color: paleturquoise;
+}

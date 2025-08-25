@@ -1,0 +1,48 @@
+nav>ul>li {
+    position: relative;
+}
+
+nav ul {
+    position:absolute;
+}
+
+nav>ul>li>ul>li {
+    display: none;
+}
+
+nav>ul>li:hover>ul>li {
+    display:block;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: lightsalmon;
+    border: 2px dashed black;
+    display: block;
+    color: black;
+    width: 90px;
+    padding: 10px 5px 10px 5px;
+}
+
+header {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu {
+    width: 200px;
+    padding: 15px 5px 15px 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+#a1, #a2 {
+    border-top: none;
+}

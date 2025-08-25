@@ -1,0 +1,9 @@
+﻿  Dictionary.cpp
+Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Dictionary::Instance __cdecl Dictionary::Create(char const * const,int)" (?Create@Dictionary@@YA?AUInstance@1@QEBDH@Z) в функции main.
+Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::AddEntry(struct Dictionary::Instance &,struct Dictionary::Entry)" (?AddEntry@Dictionary@@YAXAEAUInstance@1@UEntry@1@@Z) в функции main.
+Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::DelEntry(struct Dictionary::Instance &,int)" (?DelEntry@Dictionary@@YAXAEAUInstance@1@H@Z) в функции main.
+Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::UpdEntry(struct Dictionary::Instance &,int,struct Dictionary::Entry)" (?UpdEntry@Dictionary@@YAXAEAUInstance@1@HUEntry@1@@Z) в функции main.
+Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Dictionary::Entry __cdecl Dictionary::GetEntry(struct Dictionary::Instance,int)" (?GetEntry@Dictionary@@YA?AUEntry@1@UInstance@1@H@Z) в функции main.
+Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::Print(struct Dictionary::Instance)" (?Print@Dictionary@@YAXUInstance@1@@Z) в функции main.
+Dictionary.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Dictionary::Delete(struct Dictionary::Instance &)" (?Delete@Dictionary@@YAXAEAUInstance@1@@Z) в функции main.
+C:\Users\HomeUser\Desktop\КПО\Lab_05\x64\Debug\SE_Lab05.exe : fatal error LNK1120: неразрешенных внешних элементов: 7

@@ -1,0 +1,26 @@
+﻿Сборка начата 11.05.2024 9:58:27.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\HomeUser\Desktop\КПО\SE_Lab08\SE_Lab08\SE_Lab08.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\SE_Lab08.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\SE_Lab08.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Function.cpp SE_Lab08.cpp
+         Function.cpp
+         SE_Lab08.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HomeUser\Desktop\КПО\SE_Lab08\Debug\SE_Lab08.exe" /INCREMENTAL /ILK:"Debug\SE_Lab08.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HomeUser\Desktop\КПО\SE_Lab08\Debug\SE_Lab08.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HomeUser\Desktop\КПО\SE_Lab08\Debug\SE_Lab08.lib" /MACHINE:X86 Debug\Function.obj
+         Debug\SE_Lab08.obj
+         SE_Lab08.vcxproj -> C:\Users\HomeUser\Desktop\КПО\SE_Lab08\Debug\SE_Lab08.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Lab08.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Lab08.tlog\SE_Lab08.lastbuildstate".
+     1>Сборка проекта "C:\Users\HomeUser\Desktop\КПО\SE_Lab08\SE_Lab08\SE_Lab08.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:03.01

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="certification.xsl"?>
+<main>
+	<row>
+		<student>Василёнок А.М.</student>
+		<grade>6</grade>
+	</row>
+
+	<row>
+		<student>Воробьёва Д.Н.</student>
+		<grade>6</grade>
+	</row>
+
+	<row>
+		<student>Гулецкий П.О.</student>
+		<grade>10</grade>
+	</row>
+
+	<row>
+		<student>Жамойдо А.И.</student>
+		<grade>1</grade>
+	</row>
+
+	<row>
+		<student>Закревский Е.О.</student>
+		<grade>4</grade>
+	</row>
+
+	<row>
+		<student>Кавецкий Б.А.</student>
+		<grade>3</grade>
+	</row>
+
+	<row>
+		<student>Косемук А.Г.</student>
+		<grade>2</grade>
+	</row>
+
+	<row>
+		<student>Мандрик А.И.</student>
+		<grade>7</grade>
+	</row>
+
+	<row>
+		<student>Овечко И.А.</student>
+		<grade>2</grade>
+	</row>
+
+	<row>
+		<student>Самойлов Н.Г.</student>
+		<grade>2</grade>
+	</row>
+
+    <row>
+		<student>Сахаревич К.В.</student>
+		<grade>4</grade>
+	</row>
+
+    <row>
+		<student>Соленок А.А.</student>
+		<grade>5</grade>
+	</row>
+
+    <row>
+		<student>Шахнович Г.Н.</student>
+		<grade>3</grade>
+	</row>
+
+    <row>
+		<student>Шепутис А.Р.</student>
+		<grade>4</grade>
+	</row>
+    
+    <row>
+		<student>Ярохович С.А.</student>
+		<grade>7</grade>
+	</row>
+
+</main>

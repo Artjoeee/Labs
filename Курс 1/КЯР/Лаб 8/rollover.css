@@ -1,0 +1,56 @@
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    width: 180px;
+    padding: 7px 0px 6px 0px;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 14px;
+    color: black;
+    margin-right: 15px;
+}
+
+nav {
+    text-align: center;   
+}
+
+a {
+    background: url(https://diskstation.belstu.by:5001/fbdownload/facultet.png?tid=%22ZAMwaf1DWHuNQHQpNjEV2MWWBXW8cAU2WY7apA20Wp%22&mode=open&dlink=%222fd094d0bbd18f5fd181d182d183d0b4d0b5d0bdd182d0bed0b25fd0a4d098d0a25fd091d093d0a2d0a32fd09fd0a0d095d09fd09ed094d090d092d090d0a2d095d09bd0982fd091d0b0d180d0bad0bed0b2d181d0bad0b8d0b92fd09ad0bed0bcd0bfd18cd18ed182d0b5d180d0bdd18bd0b520d18fd0b7d18bd0bad0b820d180d0b0d0b7d0bcd0b5d182d0bad0b82fd09bd0b0d0b1d0bed180d0b0d182d0bed180d0bdd18bd0b520d180d0b0d0b1d0bed182d18b2f6c6162732f666163756c7465742e706e67%22&stdhtml=true&SynoToken=Ssmxllsy6O52k) no-repeat;
+}
+
+.it a:hover {
+    background-position: 0 -30px;
+}
+
+.pim a:hover {
+    background-position: 0 -90px;
+}
+
+.htit a:hover {
+    background-position: 0 -60px;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+nav ul {
+    position:absolute;
+}
+
+nav>ul>li>ul>li {
+    display: none;
+}
+
+nav>ul>li:hover>ul>li {
+    display:block;
+    margin-left: 161px;
+}
+
+#kaf {
+    background-image: none;
+}

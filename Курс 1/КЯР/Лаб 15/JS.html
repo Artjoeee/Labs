@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+    <header>Галерея</header>
+
+    <div class="container">
+
+        <div class="photo-container" onmouseover="showText(1)" onmouseout="hideText(1)">
+
+            <img src="https://ru-ru.learn.canva.com/wp-content/uploads/sites/19/2020/03/photo-1502082553048-f009c37129b9-e1583341920812.jpeg" class="photo">
+
+            <div class="text" id="desc1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo dolor labore possimus in autem?
+            </div>
+
+        </div>
+
+        <div class="photo-container" id="pointer">
+            <img src="https://www.afisha.uz/uploads/media/2021/09/0229656_m.jpeg" class="photo">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.pexels.com/photos/6354477/pexels-photo-6354477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="photo">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://ecologyofrussia.ru/upload/iblock/7fa/photo.jpeg" class="photo" id="photo4">   
+        </div>
+
+    </div>
+
+    <script>
+        function showText(Number) {
+            let description = document.getElementById(`desc${Number}`);
+            description.style.opacity = 1;
+        }
+
+        function hideText(Number) {
+            let description = document.getElementById(`desc${Number}`);
+            description.style.opacity = 0;
+        }
+
+        let secondimage = document.querySelectorAll(".photo")[1];
+            secondimage.addEventListener('click', function(){
+            secondimage.style.border = "10px solid red";
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let lastImage = document.getElementById("photo4");
+
+            lastImage.addEventListener("mouseover", function () {
+                lastImage.src = "https://cdn.pixabay.com/photo/2022/09/16/23/06/beach-7459789_1280.jpg"; 
+            });
+
+            lastImage.addEventListener("mouseleave", function () {
+                lastImage.src = "https://ecologyofrussia.ru/upload/iblock/7fa/photo.jpeg";
+            });
+        })
+    </script>
+</body>
+</html>

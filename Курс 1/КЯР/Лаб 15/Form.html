@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+
+        <div>
+            <label>ФИО:</label>
+            <input type="text" required>
+        </div>
+
+        <div>
+            <label>Email:</label>
+            <input type="email" required>
+        </div>
+
+        <div>
+            <label>Товар:</label>
+            <input type="text" required>
+        </div>
+
+        <div>
+            <label>Количество:</label>
+            <input type="number" required>
+        </div>
+
+        <div class="left">
+            <button type="button" class="button">Отправить</button>
+        </div>
+    </form>
+
+    <footer>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.button')[0].addEventListener('click', function(){
+            document.querySelectorAll('p')[0].innerHTML = document.forms[0][0].value;
+            document.querySelectorAll('p')[1].innerHTML = document.forms[0][1].value;
+            document.querySelectorAll('p')[2].innerHTML = document.forms[0][2].value;
+            document.querySelectorAll('p')[3].innerHTML = document.forms[0][3].value;
+        });
+    </script>
+</body>
+</html>

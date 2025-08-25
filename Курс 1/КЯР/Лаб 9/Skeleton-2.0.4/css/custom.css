@@ -1,0 +1,33 @@
+.nav {
+    list-style-type: none;
+}
+
+.nav a {
+    display: inline-block;
+    width: 88px;
+    height: 30px;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    font-size: 14px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: black;
+}
+
+.nav li {
+    display: inline;
+    margin-right: -4px;
+}
+
+img {
+    height: 70px;
+}
+
+div>div>div {
+    border: 1px solid black;
+    margin-top: 5px;
+    
+}

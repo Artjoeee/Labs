@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.photo-container {
+    position: relative;
+    max-width: 250px;
+    height: 250px;
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#pointer {
+    cursor: pointer;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+}

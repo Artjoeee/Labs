@@ -1,0 +1,50 @@
+div {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+#n1 {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(180deg, blue, red);
+}
+
+#n2 {
+    height: 200px;
+    width: 200px;
+    background-image: repeating-linear-gradient(45deg, red,red 10px, blue 10px, blue 20px);
+}
+
+#n3 {
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(yellow, green);
+}
+
+#n4 {
+    height: 200px;
+    width: 200px;
+    background-image: repeating-radial-gradient(circle, green, green 10%, yellow 10%, yellow 19%);
+}
+
+#n5 {
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle, yellow, green, transparent), 
+    linear-gradient(180deg, blue, magenta);
+                       
+}
+
+#n6 {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(90deg, yellow , green 45%, transparent),
+    linear-gradient(180deg, black 10%, white 45% 70%, blue 78% , magenta 90% 100%, transparent);
+}
+
+img {
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+}

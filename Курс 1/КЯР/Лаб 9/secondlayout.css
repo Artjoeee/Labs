@@ -1,0 +1,41 @@
+.header {
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.nav>p>a{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.article {
+    grid-area: article;
+}
+
+.acide {
+    grid-area: acide;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.grid {
+    grid-template-rows: 50px 580px 50px;
+    grid-template-columns: 110px 1120px 250px;
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav article acide'
+    'footer footer footer';
+}
+
+.grid div {
+    background-color: lightgrey;
+    font-size: 30px;
+}

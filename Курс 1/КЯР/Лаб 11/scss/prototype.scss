@@ -1,0 +1,117 @@
+@import "variables";
+
+.header{
+    height: 15%;
+    padding: 10px;
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: 15vh;
+}
+
+.logotype{
+    img{
+        height: 80%;   
+        border: none;
+    }
+}
+
+.nav {
+    .link {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@mixin border {
+    border: 2px solid black;
+}
+
+.header {
+    @include border;
+}  
+
+.logotype {
+    @include border;
+} 
+
+.link {
+    @include border;    
+}
+
+@mixin form {
+    display: flex;
+    border: 2px solid black;
+}
+
+.form {
+    @include form;
+    @extend %form;
+}
+
+%form {
+    justify-content: center;
+    align-items: center;
+}
+
+%menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;  
+}
+
+%href {
+    text-decoration: none;
+    color: black;
+}
+
+.logotype {
+    @extend %menu;
+}
+
+.nav{
+    @extend %menu;
+}
+
+a {
+    @extend %menu;
+    @extend %href;
+}
+
+@function calculate-font-size($fontSize) {
+  @return $fontSize * 1rem;
+}
+
+h3 {
+  font-size: calculate-font-size(1);
+
+}
+
+p {
+  font-size: calculate-font-size(1);
+}
+
+@mixin link($margin) {
+    @if ($margin>5%) {   
+        margin: $margin;
+        padding: 5%;
+    }
+    @else {  
+        margin: $margin; 
+        padding: 0%;
+    }
+}
+
+.link {
+    @include link(5%);
+}
+
+@function is-even($number) {
+    @return $number % 2 == 0;
+}
+  
+body {
+    font-size: if(is-even($number), 16px, 14px);
+    color: if(is-even($number), black, red);
+}

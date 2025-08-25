@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="Big.css" media="(min-width: 768px)">
+    <style>
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;   
+        }
+
+        .nav a {
+            display: inline-block;
+            width: 180px;
+            height: 30px;
+            padding: 10px 0px 10px 0px;
+            text-decoration: none;
+            text-align: center;
+            background-color: lightcoral;
+            font-size: 22px;
+            margin-left: 1px;
+            margin-right: 1px;
+            color: white;
+        }
+
+        .nav ul li :hover { 
+            background-color: rgb(61, 143, 205);
+        }
+
+        .nav li {
+            display: inline;
+            margin-right: -4px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 5px;
+            justify-content: center;
+        }
+
+        .h, .elem div {
+            border: 1px solid black;
+            background-color: aliceblue;
+        }
+
+        .elem { 
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 5px;
+            justify-content: center;
+        }
+
+        .flex-container div {
+            text-align: center;
+            width: 100%;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        #burger, label {
+            display: none;
+        }
+
+        video {
+            margin-top: 70px;
+        }
+
+        
+
+        figcaption {
+            font-size: 36px;
+        }
+
+        @media screen and (max-width: 600px) {
+    
+            .pc {
+                width: 100%;
+                justify-content: center;
+            }
+
+            [for=burger] {
+                display: block;
+                position: absolute;
+                right: 45px;
+                top: 45px;   
+            }
+
+            .container {
+                width: 80%;
+            }
+
+            #burger:checked + label + nav {
+                display: block;
+            }
+
+            .nav {
+                display: none;
+                position: absolute;
+                right: 20px;
+                margin-top: 50px;
+                text-align: center;
+                width: 20%;
+            }
+
+            .nav a {
+                display: inline-block;
+                width: 40px;
+                height: 15px; 
+                font-size: 16px;
+            }
+
+            .elem { 
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .f {
+                color: red;
+            }
+        }
+
+        @media screen and (max-width: 1280px) {
+            .foto img {
+                display: flex;
+                flex-flow: column wrap;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <input type="checkbox" id="burger">
+        <label for="burger" >&#8801</label>
+        <nav class="nav">
+            <ul>
+                <li><a href="" href#="">Гам</a></li>
+                <li><a href="" href#="">Бур</a></li>
+                <li><a href="" href#="">Гер</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="pc">
+
+        <div class="flex-container">
+            <div class="h">
+                <h1>Flexbox-верстка</h1>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="elem">
+                <div>
+                    <video src="video_2023-12-10_20-21-40.mp4" height="150" controls></video>
+                    <video src="video_2023-12-10_20-21-40.mp4" height="150" controls></video>
+                    <video src="video_2023-12-10_20-21-40.mp4" height="150" controls></video>
+                </div>
+                <div>
+                        Flexbox-верстка — разметка макетов веб-страниц, которая
+                        позволяет автоматически настраивать ширину элементов,
+                        находящихся внутри flex-контейнера. Для применения данного
+                        способа разметки следует учитывать разделение применяемых
+                        свойств на свойства flex-контейнера и свойства flex-элемента.
+                </div>
+                <div>
+                    <audio src="audio_2023-12-10_20-31-20.ogg" controls></audio>
+                    <audio src="audio_2023-12-10_20-31-20.ogg" controls></audio>
+                    <audio src="audio_2023-12-10_20-31-20.ogg" controls></audio>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="foto">
+        <img src="https://kartin.papik.pro/uploads/posts/2023-06/1686799374_kartin-papik-pro-p-kartinki-jpeg-priroda-38.jpg" alt="">
+            <figcaption class="f">Фото 1</figcaption>
+        
+
+        <img src="https://ru-ru.learn.canva.com/wp-content/uploads/sites/19/2020/03/photo-1502082553048-f009c37129b9-e1583341920812.jpeg" alt="">
+            <figcaption class="f">Фото 2</figcaption>
+        
+
+        <img src="https://kartin.papik.pro/uploads/posts/2023-06/1686799374_kartin-papik-pro-p-kartinki-jpeg-priroda-38.jpg" alt="">
+            <figcaption class="f">Фото 3</figcaption>
+        
+
+        <img src="https://images.pexels.com/photos/6354477/pexels-photo-6354477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <figcaption class="f">Фото 4</figcaption>
+        
+
+        <img src="https://ecologyofrussia.ru/upload/iblock/7fa/photo.jpeg" alt="">
+            <figcaption class="f">Фото 5</figcaption>
+        
+
+        <img src="https://kartin.papik.pro/uploads/posts/2023-06/thumbs/1686799375_kartin-papik-pro-p-kartinki-jpeg-priroda-39.jpg" alt="">
+            <figcaption class="f">Фото 6</figcaption>
+        
+
+        <img src="https://pibig.info/uploads/posts/2021-06/1623222726_8-pibig_info-p-krasivie-oboi-priroda-priroda-krasivo-foto-11.jpg" alt="">
+            <figcaption class="f">Фото 7</figcaption>
+        
+
+        <img src="https://ysa.kiev.ua/wp-content/uploads/2022/01/rajaampat-gettyimages-979296970-e1641387696891.jpeg" alt="">
+            <figcaption class="f">Фото 8</figcaption>
+        
+    </div>
+</body>
+</html>

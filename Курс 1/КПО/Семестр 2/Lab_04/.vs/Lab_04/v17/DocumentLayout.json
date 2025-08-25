@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B92A9140-6AE3-4392-84BB-356B40CC78E8}|Product\\Product.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_04\\Product\\Product.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B92A9140-6AE3-4392-84BB-356B40CC78E8}|Product\\Product.vcxproj|solutionrelative:Product\\Product.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135A0048-924F-4928-AA67-48EB781993C2}|SE_Lab04\\SE_Lab04.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_04\\SE_Lab04\\SE_Lab04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{135A0048-924F-4928-AA67-48EB781993C2}|SE_Lab04\\SE_Lab04.vcxproj|solutionrelative:SE_Lab04\\SE_Lab04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_04\\Product\\Product.cpp",
+              "RelativeDocumentMoniker": "Product\\Product.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_04\\Product\\Product.cpp",
+              "RelativeToolTip": "Product\\Product.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T17:03:38.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SE_Lab04.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_04\\SE_Lab04\\SE_Lab04.cpp",
+              "RelativeDocumentMoniker": "SE_Lab04\\SE_Lab04.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_04\\SE_Lab04\\SE_Lab04.cpp",
+              "RelativeToolTip": "SE_Lab04\\SE_Lab04.cpp",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAC8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-05T16:06:15.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

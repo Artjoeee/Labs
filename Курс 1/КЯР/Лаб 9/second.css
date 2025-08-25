@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    width: 1520px;
+    height: 730px;
+    grid-template-columns: 600px 600px 100px;
+    grid-gap: 25px;
+}
+    
+#d, #d1, #d2 {
+    border: 3px solid black;
+}
+
+#d, #d1 {
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+}
+
+#d1 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+#d2 {
+    grid-row: 1/3;
+    grid-column: 3/4;
+    text-align: center;
+    padding-left: 7px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 1em;
+}

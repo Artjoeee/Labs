@@ -1,0 +1,44 @@
+@mixin header {
+    color: purple;
+    font-family: 'Monotype Corsiva';
+}
+
+h1, h2, h3 {
+    @include header;
+}
+
+.special1 {
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 18pt;
+}
+
+.special2 {
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 20pt;
+}
+
+.special3 {
+    color: green;
+    font-family: 'Times New Roman';
+    font-size: 22pt;
+}
+
+table {
+    tbody {
+        color: dimgray;
+    }
+}
+
+svg {
+    a {
+        font-size: 16px;
+    }
+}
+
+p {
+    color: blue;
+    font-family: arial;
+    font-size: 16pt;
+}

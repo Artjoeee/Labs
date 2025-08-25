@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\Dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|solutionrelative:SE_Lab05\\Dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|solutionrelative:SE_Lab05\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\SE_Lab05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|solutionrelative:SE_Lab05\\SE_Lab05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5FF9098-FBB9-4A1B-A1E8-74C521E8D345}|SE_Lab05\\SE_Lab05.vcxproj|solutionrelative:SE_Lab05\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "stdafx.h",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\stdafx.h",
+              "RelativeDocumentMoniker": "SE_Lab05\\stdafx.h",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\stdafx.h",
+              "RelativeToolTip": "SE_Lab05\\stdafx.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T16:23:53.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dictionary.h",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\Dictionary.h",
+              "RelativeDocumentMoniker": "SE_Lab05\\Dictionary.h",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\Dictionary.h",
+              "RelativeToolTip": "SE_Lab05\\Dictionary.h",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwDMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T13:03:35.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dictionary.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\Dictionary.cpp",
+              "RelativeDocumentMoniker": "SE_Lab05\\Dictionary.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\Dictionary.cpp",
+              "RelativeToolTip": "SE_Lab05\\Dictionary.cpp",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T13:03:16.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SE_Lab05.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\SE_Lab05.cpp",
+              "RelativeDocumentMoniker": "SE_Lab05\\SE_Lab05.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\Lab_05\\SE_Lab05\\SE_Lab05.cpp",
+              "RelativeToolTip": "SE_Lab05\\SE_Lab05.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T20:09:49.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

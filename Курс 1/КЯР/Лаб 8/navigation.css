@@ -1,0 +1,61 @@
+.nav {
+    list-style-type: none;
+}
+
+.nav a {
+    display: block;
+    width: 250px;
+    padding: 15px 5px 15px 5px;
+    text-decoration: none;
+    background-color: lightcyan;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+aside {
+    top: 20%;
+    right: 1%;
+    box-sizing: border-box;
+    position: fixed;
+    text-align: center;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+   }
+
+aside h2 {
+    background-color: darkred;
+    color: white;
+    margin-bottom: 0%;
+    padding: 5px 0px 5px 0px;
+}
+
+section {
+    background-color: lightcoral;
+    color: white;
+    font-size: 30px;
+    width: 1000px;
+    text-indent: 1em;
+    margin: 2% 2% 2% 2%;
+    padding: 5px 0px 10px 15px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: #8B0000;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: rgb(184, 134, 11);
+}

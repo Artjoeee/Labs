@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анимация</title>
+    <style>
+        polygon:hover { 
+            stroke: red; 
+            stroke-width: 3; 
+        }
+    </style>
+</head>
+<body>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="400" >
+
+        <circle cx="350" cy="80" r="50" fill="blue" />
+
+        <rect  x="420" y="30" width="120" height="100" fill="red" stroke="black">
+            <animate attributeName="stroke-width" from="0" to="10" dur="3s" repeatCount="indefinite" />
+        </rect> 
+
+        <ellipse cx="640" cy="80" rx="90" ry="50" fill="green">
+            <animate attributeName="fill" values="violet" begin="click" fill="freeze" />
+        </ellipse>
+
+        <polygon  points="790 40, 860 150, 720 150" fill="url(#gradient)" stroke="violet" stroke-width="3"/>
+
+        <defs>
+            <linearGradient id="gradient"> 
+
+                <stop offset="0%"> 
+                    <animate attributeName="stop-color" values="yellow; green" dur="4s"  fill="freeze"/> 
+                </stop> 
+
+                <stop offset="85%"> 
+                    <animate attributeName="stop-color" values="yellow; orange" dur="4s" fill="freeze"/>  
+                </stop> 
+
+            </linearGradient> 
+        </defs> 
+
+        <polyline points="290 150,600 150,500 190,880 190" fill="none" stroke="purple" stroke-width="2"/>
+
+    </svg>
+
+</body>
+</html>

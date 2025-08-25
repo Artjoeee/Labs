@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4EC93B-D9F4-4B93-AF92-79B31A340C2E}|SE_Lab09\\SE_Lab09.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\SE_Lab09.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C4EC93B-D9F4-4B93-AF92-79B31A340C2E}|SE_Lab09\\SE_Lab09.vcxproj|solutionrelative:SE_Lab09\\SE_Lab09.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4EC93B-D9F4-4B93-AF92-79B31A340C2E}|SE_Lab09\\SE_Lab09.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\Varparm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C4EC93B-D9F4-4B93-AF92-79B31A340C2E}|SE_Lab09\\SE_Lab09.vcxproj|solutionrelative:SE_Lab09\\Varparm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4EC93B-D9F4-4B93-AF92-79B31A340C2E}|SE_Lab09\\SE_Lab09.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\Varparm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C4EC93B-D9F4-4B93-AF92-79B31A340C2E}|SE_Lab09\\SE_Lab09.vcxproj|solutionrelative:SE_Lab09\\Varparm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Varparm.h",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\Varparm.h",
+              "RelativeDocumentMoniker": "SE_Lab09\\Varparm.h",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\Varparm.h",
+              "RelativeToolTip": "SE_Lab09\\Varparm.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-07T14:53:30.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Varparm.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\Varparm.cpp",
+              "RelativeDocumentMoniker": "SE_Lab09\\Varparm.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\Varparm.cpp",
+              "RelativeToolTip": "SE_Lab09\\Varparm.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T14:53:49.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SE_Lab09.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\SE_Lab09.cpp",
+              "RelativeDocumentMoniker": "SE_Lab09\\SE_Lab09.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab09\\SE_Lab09\\SE_Lab09.cpp",
+              "RelativeToolTip": "SE_Lab09\\SE_Lab09.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T14:52:56.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

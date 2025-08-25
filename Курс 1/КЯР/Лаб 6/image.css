@@ -1,0 +1,38 @@
+.image li {
+    list-style: none;
+    background-image: url(https://pngicon.ru/file/uploads/1_1735.png);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    background-size: 1.5%;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    }
+    
+body {
+    background-image: url(https://belstu.by/images/it/mrxcyoj1s3q.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:fixed;
+}   
+
+#block1 {
+    float:left;
+    width: 15%;
+    height: 15%;
+}
+
+#block2 {
+    float: right;
+    width: 15%;
+    height: 15%;
+}
+
+p {
+    text-indent: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+table {
+    margin-bottom: 5%;
+}
