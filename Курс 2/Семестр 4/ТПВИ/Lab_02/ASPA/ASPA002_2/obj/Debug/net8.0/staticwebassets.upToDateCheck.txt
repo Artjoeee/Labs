@@ -1,0 +1,3 @@
+wwwroot\css\Neumann.css
+wwwroot\js\Neumann.js
+wwwroot\Neumann.html

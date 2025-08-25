@@ -1,0 +1,52 @@
+﻿@page "/LifeEvents"
+@model ASPA007.Pages.LiveEventsModel
+@{
+    ViewData["Title"] = "LiveEvents";
+    Layout = "_Layout";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="photo-grid">
+    @foreach (var celebrity in Model.Celebrities)
+    {
+        <div class="photo-item" data-id="@celebrity.Id" data-name="@celebrity.FullName" onmousedown="showEvents(this)">
+            <img src="@Model.ReqPhotoPath/@(celebrity.ReqPhotoPath)" alt="@celebrity.FullName" />
+        </div>
+    }
+</div>
+<div id="events-popup" class="popup" style="display:none;"></div>
+
+<style>
+    .photo-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .photo-item img {
+        height: 200px;
+        width: auto;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+</style>
+<script>
+    async function showEvents(element) {
+        const celebrityId = element.dataset.id;
+        const fullName = element.dataset.name;
+        const popup = document.getElementById('events-popup');
+
+        popup.innerHTML = `<strong>${fullName}</strong><br/>Загрузка событий...`;
+
+        const response = await fetch(`/api/LifeEvents/Celebrities/${celebrityId}`);
+        const events = await response.json();
+
+        popup.innerHTML = `<strong>${fullName}</strong><ul>` +
+            events.map(ev => `<li>${new Date(ev.date).toLocaleDateString()}: ${ev.description}</li>`).join('') +
+            `</ul>`;
+
+        popup.style.display = 'block';
+    }
+</script>

@@ -1,0 +1,126 @@
+﻿@page "/Celebrities"
+@model ASPA007.Pages.CelebritiesModel
+@{
+    ViewData["Title"] = "Celebrities";
+    Layout = "_Layout";
+}
+
+<div class="celebrities-container">
+    <div class="celebrities-grid">
+
+        <div class="celebrity-card add-new">
+            <a href="/NewCelebrity">
+                <img src="@Model.ReqPhotoPath/NewCelebrity.jpg"
+                     alt="Add New Celebrity" />
+            </a>
+            <h3>Add New Celebrity</h3>
+        </div>
+
+
+        @foreach (var celebrity in Model.Celebrities)
+        {
+            <div class="celebrity-card">
+                <a href="/Celebrities/@celebrity.Id">
+                    <img src="@Model.ReqPhotoPath/@(celebrity.ReqPhotoPath)" 
+                         alt="@celebrity.FullName" />
+                </a>
+                <h3>@celebrity.FullName</h3>
+                <p>@celebrity.Nationality</p>
+            </div>
+        }
+
+        
+    </div>
+
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2>@Model.SuccessMessage</h2>
+        </div>
+    </div>
+</div>
+
+<style>
+    .celebrities-container {
+        padding: 20px;
+    }
+
+    .celebrities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .celebrity-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .celebrity-card:hover {
+        transform: scale(1.03);
+    }
+
+    .celebrity-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .celebrity-card a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .add-new {
+        background-color: #f5f5f5;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 300px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .close-button {
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>
+
+<script>
+    function closeModal() {
+        document.getElementById('successModal').style.display = 'none';
+    }
+
+    window.onload = function () {
+        var hasMessage = "@Model.SuccessMessage".trim().length > 0;
+        if (hasMessage) {
+            document.getElementById('successModal').style.display = 'block';
+        }
+         setTimeout(closeModal, 3000);
+    }
+</script>

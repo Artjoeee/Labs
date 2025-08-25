@@ -1,0 +1,95 @@
+﻿@page "/{id:int}"
+@using DAL_Celebrity_MSSQL;
+@using ANC_25_WEBAPI_DLL;
+@model ASPA007.Pages.CelebrityModel
+@{
+    ViewData["Title"] = Model.Celebrity.FullName;
+    Celebrity celebrity = Model.Celebrity;
+    string photoPath = $"Model.ReqPhotoPath/@(celebrity.ReqPhotoPath)";
+    int h = 200, w = 0;
+    Layout = "_Layout";
+}
+
+
+<div class="celebrity-detail-container">
+    <div class="celebrity-image">
+        <img src="@Model.Celebrity.ReqPhotoPath"
+             alt="@Model.Celebrity.FullName"
+             class="img-fluid" />
+    </div>
+
+    <div class="celebrity-info">
+        <h1>@Model.Celebrity.FullName</h1>
+        <p><strong>Nationality:</strong> @Model.Celebrity.Nationality</p>
+
+    </div>
+</div>
+
+
+
+<style>
+    .celebrity-detail-container {
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .celebrity-image {
+        flex: 1;
+        max-width: 400px;
+    }
+
+        .celebrity-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .celebrity-info {
+        flex: 2;
+    }
+
+        .celebrity-info h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .celebrity-info p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+    .action-buttons {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+    }
+
+    @@media (max-width: 768px) {
+        .celebrity-detail-container {
+            flex-direction: column;
+        }
+
+        .celebrity-image {
+            max-width: 100%;
+        }
+    }
+</style>

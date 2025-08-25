@@ -1,0 +1,30 @@
+USE [UNIVER]
+GO
+
+/****** Object:  StoredProcedure [dbo].[PSUBJECT]    Script Date: 31.05.2025 1:56:32 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+ALTER PROCEDURE [dbo].[PSUBJECT] @p varchar(20)
+AS
+BEGIN 
+	DECLARE @k int = (SELECT COUNT(*) FROM SUBJECT);
+	SELECT *  FROM SUBJECT WHERE PULPIT = @p;
+END;
+GO
+
+CREATE TABLE #SUBJECT 
+(
+	SUBJECT char(10) primary key,
+	SUBJECT_NAME varchar(100),
+	PULPIT char(20)
+)
+
+INSERT #SUBJECT EXEC PSUBJECT @p = 'ISIT';
+
+SELECT * FROM #SUBJECT
+GO

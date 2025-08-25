@@ -1,0 +1,22 @@
+[
+  {"Id":1,  "CelebrityId":1,  "Date":"07.12.1928 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":2,  "CelebrityId":1,  "Date":"01.01.1955 0:00:00", "Description":"Издание книги \"Логическая структура лингвистической теории\"", "RegPhotoPath":""},
+  {"Id":3,  "CelebrityId":2,  "Date":"08.06.1955 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":4,  "CelebrityId":2,  "Date":"08.06.1949 0:00:00", "Description":"В СЕВИ предложил \"Гипнотректовый проект\"",                    "RegPhotoPath":""},
+  {"Id":5,  "CelebrityId":3,  "Date":"23.08.1923 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":6,  "CelebrityId":3,  "Date":"18.04.2083 0:00:00", "Description":"Дата смерти",                                                   "RegPhotoPath":""},
+  {"Id":7,  "CelebrityId":4,  "Date":"10.01.1938 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":8,  "CelebrityId":4,  "Date":"01.01.1974 0:00:00", "Description":"Премия Тьюринга",                                               "RegPhotoPath":""},
+  {"Id":9,  "CelebrityId":5,  "Date":"28.12.1969 0:00:00", "Description":"Дата рождения. Финляндия.",                                     "RegPhotoPath":""},
+  {"Id":10, "CelebrityId":5,  "Date":"17.09.1991 0:00:00", "Description":"Выложили исходный код OS linus (версии 0.01)",                  "RegPhotoPath":""},
+  {"Id":11, "CelebrityId":6,  "Date":"28.12.1983 0:00:00", "Description":"Дата рождения. Венгрия",                                        "RegPhotoPath":""},
+  {"Id":12, "CelebrityId":6,  "Date":"08.02.1957 0:00:00", "Description":"Дата смерти",                                                   "RegPhotoPath":""},
+  {"Id":13, "CelebrityId":7,  "Date":"28.12.1930 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":14, "CelebrityId":7,  "Date":"08.08.2002 0:00:00", "Description":"Дата смерти",                                                   "RegPhotoPath":""},
+  {"Id":15, "CelebrityId":8,  "Date":"27.11.1852 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":16, "CelebrityId":9,  "Date":"10.12.1815 0:00:00", "Description":"Дата смерти",                                                   "RegPhotoPath":""},
+  {"Id":17, "CelebrityId":9,  "Date":"26.12.1791 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":18, "CelebrityId":9,  "Date":"18.10.1871 0:00:00", "Description":"Дата смерти",                                                   "RegPhotoPath":""},
+  {"Id":19, "CelebrityId":10, "Date":"16.03.1944 0:00:00", "Description":"Дата рождения",                                                 "RegPhotoPath":""},
+  {"Id":20, "CelebrityId":10, "Date":"01.01.1987 0:00:00", "Description":"Создал OS MINIX - бесплатную Unix-подобную систему",            "RegPhotoPath":""}
+]

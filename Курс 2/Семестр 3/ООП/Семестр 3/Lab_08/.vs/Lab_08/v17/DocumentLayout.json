@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 1\\Lab_08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9681D5A1-DBDA-48DE-B9B0-B6428056B0C2}|Lab_08\\Lab_08.csproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 1\\Lab_08\\lab_08\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9681D5A1-DBDA-48DE-B9B0-B6428056B0C2}|Lab_08\\Lab_08.csproj|solutionrelative:lab_08\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9681D5A1-DBDA-48DE-B9B0-B6428056B0C2}|Lab_08\\Lab_08.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u043E\u043E\u043F\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 1\\lab_08\\lab_08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9681D5A1-DBDA-48DE-B9B0-B6428056B0C2}|Lab_08\\Lab_08.csproj|solutionrelative:lab_08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 1\\Lab_08\\Lab_08\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_08\\Program.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 1\\Lab_08\\Lab_08\\Program.cs",
+              "RelativeToolTip": "Lab_08\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:39:20.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 1\\Lab_08\\Lab_08\\Class.cs",
+              "RelativeDocumentMoniker": "Lab_08\\Class.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 1\\Lab_08\\Lab_08\\Class.cs",
+              "RelativeToolTip": "Lab_08\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:40:48.339Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 81,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 83,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

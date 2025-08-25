@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "HVqbjrVygejdaxlj4vrrtrOQNKPWYFuEVjVyV0y7Ys8=",
+  "Source": "ASPA002_1",
+  "BasePath": "_content/ASPA002_1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPA002_1\\wwwroot",
+      "Source": "ASPA002_1",
+      "ContentRoot": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\",
+      "BasePath": "_content/ASPA002_1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\css\\index.css",
+      "SourceId": "ASPA002_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\",
+      "BasePath": "_content/ASPA002_1",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ri159mbzr",
+      "Integrity": "LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\index.html",
+      "SourceId": "ASPA002_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\",
+      "BasePath": "_content/ASPA002_1",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "85twc3zc57",
+      "Integrity": "dPz5hPuu5QWOw3V4pYQVvOAv/5g49ttWFzHFd6tdIVE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\jpg\\Neumann.jpg",
+      "SourceId": "ASPA002_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\",
+      "BasePath": "_content/ASPA002_1",
+      "RelativePath": "jpg/Neumann#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7op20yuh95",
+      "Integrity": "d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jpg\\Neumann.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\js\\index.js",
+      "SourceId": "ASPA002_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\",
+      "BasePath": "_content/ASPA002_1",
+      "RelativePath": "js/index#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8qdyfrlarw",
+      "Integrity": "AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj++3FIaTOd7sA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/index.0ri159mbzr.css",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 07:05:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ri159mbzr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 07:05:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.85twc3zc57.html",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dPz5hPuu5QWOw3V4pYQVvOAv/5g49ttWFzHFd6tdIVE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 06:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85twc3zc57"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dPz5hPuu5QWOw3V4pYQVvOAv/5g49ttWFzHFd6tdIVE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dPz5hPuu5QWOw3V4pYQVvOAv/5g49ttWFzHFd6tdIVE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 06:52:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dPz5hPuu5QWOw3V4pYQVvOAv/5g49ttWFzHFd6tdIVE="
+        }
+      ]
+    },
+    {
+      "Route": "jpg/Neumann.7op20yuh95.jpg",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\jpg\\Neumann.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "321230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 15:39:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7op20yuh95"
+        },
+        {
+          "Name": "label",
+          "Value": "jpg/Neumann.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc="
+        }
+      ]
+    },
+    {
+      "Route": "jpg/Neumann.jpg",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\jpg\\Neumann.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "321230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Nov 2024 15:39:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d9auynvsm0xY/uBSJUQCJW/CXkw9hg9unbdmvmzGtXc="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.8qdyfrlarw.js",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\js\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj++3FIaTOd7sA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 07:08:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8qdyfrlarw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/index.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj++3FIaTOd7sA="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.js",
+      "AssetFile": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_02\\ASPA\\ASPA002_1\\wwwroot\\js\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj++3FIaTOd7sA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 07:08:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj++3FIaTOd7sA="
+        }
+      ]
+    }
+  ]
+}

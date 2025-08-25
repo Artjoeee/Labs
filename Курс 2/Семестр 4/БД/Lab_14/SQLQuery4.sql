@@ -1,0 +1,17 @@
+USE UNIVER;
+
+GO
+CREATE FUNCTION FFACPUL(@f char(10), @p char(20)) returns table
+AS RETURN
+	SELECT F.FACULTY, P.PULPIT
+	FROM FACULTY F LEFT OUTER JOIN PULPIT P
+	ON F.FACULTY = P.FACULTY
+	WHERE F.FACULTY = ISNULL(@f, F.FACULTY)
+	AND
+		P.PULPIT = ISNULL(@p, P.PULPIT);
+GO
+
+select * from dbo.FFACPUL(NULL, NULL);
+select * from dbo.FFACPUL('IT', NULL);
+select * from dbo.FFACPUL(NULL, 'LMILZ');
+select * from dbo.FFACPUL('TTLP', 'LMILZ');

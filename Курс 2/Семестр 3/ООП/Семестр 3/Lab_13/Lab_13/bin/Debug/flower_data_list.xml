@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFlower xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Flower>
+    <ThornCount>10</ThornCount>
+    <Name>Роза</Name>
+    <Color>Красный</Color>
+  </Flower>
+  <Flower>
+    <ThornCount>0</ThornCount>
+    <Name>Лилия</Name>
+    <Color>Белый</Color>
+  </Flower>
+</ArrayOfFlower>

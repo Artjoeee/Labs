@@ -1,0 +1,7 @@
+C:\Users\HomeUser\Desktop\ООП\Lab_15\Lab_15\bin\Debug\Lab_15.exe.config
+C:\Users\HomeUser\Desktop\ООП\Lab_15\Lab_15\bin\Debug\Lab_15.exe
+C:\Users\HomeUser\Desktop\ООП\Lab_15\Lab_15\bin\Debug\Lab_15.pdb
+C:\Users\HomeUser\Desktop\ООП\Lab_15\Lab_15\obj\Debug\Lab_15.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\ООП\Lab_15\Lab_15\obj\Debug\Lab_15.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\ООП\Lab_15\Lab_15\obj\Debug\Lab_15.exe
+C:\Users\HomeUser\Desktop\ООП\Lab_15\Lab_15\obj\Debug\Lab_15.pdb

@@ -1,0 +1,16 @@
+USE UNIVER;
+
+SELECT Group1.ID, Group2.Имя
+FROM Group1 FULL OUTER JOIN Group2
+ON Group1.ID = Group2.ID
+WHERE Group2.ID IS NULL
+
+SELECT Group1.ID, Group2.Имя
+FROM Group1 FULL OUTER JOIN Group2
+ON Group1.ID = Group2.ID
+WHERE Group1.ID IS NULL
+
+SELECT Group1.ID, Group2.Имя
+FROM Group1 FULL OUTER JOIN Group2
+ON Group1.ID = Group2.ID
+WHERE Group1.ID IS NOT NULL AND Group2.ID IS NOT NULL

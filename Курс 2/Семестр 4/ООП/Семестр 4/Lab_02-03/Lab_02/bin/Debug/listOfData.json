@@ -1,0 +1,38 @@
+[
+  {
+    "Department": null,
+    "Auditorium": null,
+    "FullName": null,
+    "Info": "Чешун А. А. - ИСИТ - 100"
+  },
+  {
+    "Department": null,
+    "Auditorium": null,
+    "FullName": null,
+    "Info": "Пинчук А. С. - ПИ - 101"
+  },
+  {
+    "Department": null,
+    "Auditorium": null,
+    "FullName": null,
+    "Info": "Величко И. Д. - ЦД - 102"
+  },
+  {
+    "Department": null,
+    "Auditorium": null,
+    "FullName": null,
+    "Info": "Жамойдо А. И. - ПИ - 100"
+  },
+  {
+    "Department": null,
+    "Auditorium": null,
+    "FullName": null,
+    "Info": "Войтенко И. О. - ПИ - 102"
+  },
+  {
+    "Department": "ИСИТ",
+    "Auditorium": "101",
+    "FullName": "Мандрик А. И.",
+    "Info": "Мандрик А. И. - ИСИТ - 101"
+  }
+]

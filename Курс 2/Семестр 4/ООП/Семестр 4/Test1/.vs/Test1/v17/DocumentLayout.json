@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\Test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB23321-BD04-425F-85B1-E9A0C58E7284}|Test1\\Test1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u043E\u043E\u043F\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\test1\\test1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB23321-BD04-425F-85B1-E9A0C58E7284}|Test1\\Test1.csproj|solutionrelative:test1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB23321-BD04-425F-85B1-E9A0C58E7284}|Test1\\Test1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u043E\u043E\u043F\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\test1\\test1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8BB23321-BD04-425F-85B1-E9A0C58E7284}|Test1\\Test1.csproj|solutionrelative:test1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BB23321-BD04-425F-85B1-E9A0C58E7284}|Test1\\Test1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u043E\u043E\u043F\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\test1\\test1\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BB23321-BD04-425F-85B1-E9A0C58E7284}|Test1\\Test1.csproj|solutionrelative:test1\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 190,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\Test1\\Test1\\Validation.cs",
+              "RelativeDocumentMoniker": "Test1\\Validation.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\Test1\\Test1\\Validation.cs",
+              "RelativeToolTip": "Test1\\Validation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:56:41.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\Test1\\Test1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Test1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\Test1\\Test1\\MainWindow.xaml",
+              "RelativeToolTip": "Test1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T23:46:02.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\Test1\\Test1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Test1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041E\u041E\u041F\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\Test1\\Test1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Test1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAhwCsAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:45:47.979Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

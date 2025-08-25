@@ -1,0 +1,13 @@
+{
+  "Name": "Python",
+  "Age": "18 - 25",
+  "Complexity": "Новичок",
+  "LecturesCount": "4",
+  "LabsCount": "6",
+  "TypeOfControl": "Зачет",
+  "Teacher": "Пинчук А. С. - ПИ - 101",
+  "ListOfReferences": [
+    "Основы программирования - Основыч Б. Б. - 2005",
+    "Программирование на C# - Шарпыч Г. Г. - 2017"
+  ]
+}

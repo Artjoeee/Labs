@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\lab_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|solutionrelative:lab_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|c:\\users\\homeuser\\desktop\\\u043E\u043E\u043F\\lab_07\\lab_07\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|solutionrelative:lab_07\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\lab_07\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|solutionrelative:lab_07\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\lab_07\\file.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D1DF788B-92C7-4A9B-BD5D-A3291BE48F73}|Lab_07\\Lab_07.csproj|solutionrelative:lab_07\\file.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "File.txt",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\File.txt",
+              "RelativeDocumentMoniker": "Lab_07\\File.txt",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\File.txt",
+              "RelativeToolTip": "Lab_07\\File.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-04T22:35:12.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\Interface.cs",
+              "RelativeDocumentMoniker": "Lab_07\\Interface.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\Interface.cs",
+              "RelativeToolTip": "Lab_07\\Interface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:17:25.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\Class.cs",
+              "RelativeDocumentMoniker": "Lab_07\\Class.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\Class.cs",
+              "RelativeToolTip": "Lab_07\\Class.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:54:42.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_07\\Program.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_07\\Lab_07\\Program.cs",
+              "RelativeToolTip": "Lab_07\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:12:20.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

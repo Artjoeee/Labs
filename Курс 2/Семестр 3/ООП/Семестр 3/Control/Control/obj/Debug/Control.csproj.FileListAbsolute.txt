@@ -1,0 +1,7 @@
+C:\Users\HomeUser\Desktop\ООП\Control\Control\bin\Debug\Control.exe.config
+C:\Users\HomeUser\Desktop\ООП\Control\Control\bin\Debug\Control.exe
+C:\Users\HomeUser\Desktop\ООП\Control\Control\bin\Debug\Control.pdb
+C:\Users\HomeUser\Desktop\ООП\Control\Control\obj\Debug\Control.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\ООП\Control\Control\obj\Debug\Control.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\ООП\Control\Control\obj\Debug\Control.exe
+C:\Users\HomeUser\Desktop\ООП\Control\Control\obj\Debug\Control.pdb

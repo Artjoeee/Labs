@@ -1,0 +1,160 @@
+﻿@using System.IO
+@using DAL_Celebrity_MSSQL;
+@using ANC_25_WEBAPI_DLL;
+@using System.Globalization
+@model ASPA008_1.Models.CelebrityModel
+
+@{
+    ViewData["Title"] = Model.celebrity.FullName;
+    int h = 200, w = 0;
+    Layout = "_Layout";
+}
+
+<div class="celebrity-detail-container">
+    <div class="celebrity-image">
+        <img src="@Url.Content($"~/Photos/{Model.celebrity.ReqPhotoPath}")" alt="@Model.celebrity.FullName" class="img-fluid" />
+    </div>
+
+    <div class="celebrity-info">
+        <h1>@Model.celebrity.FullName</h1>
+        <p><strong>Nationality:</strong> @Model.celebrity.Nationality</p>
+
+        <div class="action-buttons">
+            <a href="/Celebrities" class="btn btn-secondary">Back to List</a>
+            <a asp-controller="EditCelebrity"
+               asp-action="Edit"
+               asp-route-id="@Model.celebrity.Id"
+               class="btn btn-warning">
+                Edit Celebrity
+            </a>
+            <a asp-controller="DelCelebrity"
+               asp-action="ConfirmDelete"
+               asp-route-id="@Model.celebrity.Id"
+               class="btn btn-danger">
+                Delete Celebrity
+            </a>
+
+        </div>
+        <h3>Life Events:</h3>
+        @if (Model.lifeevents != null && Model.lifeevents.Any())
+        {
+            <ul>
+                @foreach (var life in Model.lifeevents)
+                {
+                    <li>@life.Date?.ToString("dd.MM.yyyy", CultureInfo.InvariantCulture) - @life.Description</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No life events available.</p>
+        }
+
+        @if (Model.references != null && Model.references.Any())
+        {
+            <h3>External Links:</h3>
+            @foreach (var link in Model.references)
+            {
+                <a id="@link.Key" href="@link.Value" target="_blank" hidden>@link.Key</a>
+                <button onclick="document.getElementById('@link.Key').click();" class="btn btn-info">@link.Key</button>
+            }
+        }
+    </div>
+</div>
+
+
+
+<style>
+    .celebrity-detail-container {
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .celebrity-image {
+        flex: 1;
+        max-width: 400px;
+    }
+
+        .celebrity-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .celebrity-info {
+        flex: 2;
+    }
+
+        .celebrity-info h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .celebrity-info p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+    .action-buttons {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+    }
+
+    .btn-primary {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .btn-info {
+        cursor: pointer;
+    }
+
+    .btn-warning {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    @@media (max-width: 768px) {
+        .celebrity-detail-container {
+            flex-direction: column;
+        }
+
+        .celebrity-image {
+            max-width: 100%;
+        }
+    }
+</style>

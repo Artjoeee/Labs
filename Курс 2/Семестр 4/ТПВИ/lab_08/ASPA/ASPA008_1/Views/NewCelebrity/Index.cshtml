@@ -1,0 +1,175 @@
+﻿@model DAL_Celebrity_MSSQL.Celebrity
+@using ANC_25_WEBAPI_DLL.Service
+@using DAL_Celebrity_MSSQL
+@inject CountryCodes Countries
+@{
+    Layout = "_Layout";
+    int h = 200, w = 350;
+    bool Confirm = ViewBag.Confirm;
+    string PhotosRequestPath = ViewBag.PhotosRequestPath;
+
+    var countries = Countries.GetAllCountries();
+}
+
+<div class="celebrity-container">
+    <div class="celebrity-card">
+        <img id="celebrityPhoto"
+             title="@Model?.FullName"
+             src="@(
+         !string.IsNullOrEmpty(Model?.ReqPhotoPath)
+             ? Url.Content($"~/Photos/{Model.ReqPhotoPath}?v={Guid.NewGuid()}")
+             : Url.Content($"{PhotosRequestPath}/Images.jpg")
+     )"
+             alt="@Model?.FullName ?? " Add New Celebrity"" />
+    </div>
+
+    @{
+        bool isEdit = Model?.Id > 0;
+    }
+
+    @using (Html.BeginForm("New", "NewCelebrity", new { id = isEdit ? Model.Id : (int?)null }, FormMethod.Post, null, new { enctype = "multipart/form-data", @class = "celebrity-form" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName"
+               id="fullname"
+               type="text"
+               readonly="@Confirm"
+               required />
+
+        <label asp-for="Nationality"></label>
+        @if (!Confirm)
+        {
+            @Html.DropDownListFor(m => m.Nationality,
+                    new SelectList(countries, "code", "countryLabel", Model?.Nationality),
+                    "-- Select Country --",
+                    new { @class = "form-control", required = "required" })
+        }
+        else
+        {
+            <div class="form-control-plaintext">@Model.Nationality</div>
+            <input type="hidden" asp-for="Nationality" />
+        }
+
+        @if (!Confirm)
+        {
+            <label>Photo</label>
+            <input asp-for="ReqPhotoPath" type="file" accept=".jpg,.jpeg,.png" />
+        }
+        else
+        {
+            <input type="hidden" asp-for="ReqPhotoPath" />
+        }
+
+        <div class="button-group">
+            <input type="hidden" name="press" id="pressInput" value="" />
+
+            @if (Confirm)
+            {
+                <button type="submit" onclick="document.getElementById('pressInput').value='confirm';" class="btn btn-success">
+                    @(isEdit ? "SAVE CHANGES" : "SAVE")
+                </button>
+                <a asp-action="@(isEdit ? "Index" : "New")" asp-controller="NewCelebrity" class="btn btn-danger">CANCEL</a>
+            }
+            else
+            {
+                <button type="submit" onclick="document.getElementById('pressInput').value='save';" class="btn btn-primary">CONFIRMATION</button>
+                <button type="reset" class="btn btn-warning">CANCEL</button>
+            }
+        </div>
+    }
+</div>
+
+<style>
+    .celebrity-container {
+        display: flex;
+        gap: 40px;
+        padding: 30px;
+        align-items: flex-start;
+    }
+
+    .celebrity-card {
+        flex: 1;
+        max-width: 400px;
+    }
+
+        .celebrity-card img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .celebrity-form {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: #fafafa;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .celebrity-form label {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .celebrity-form input[type="text"],
+    .celebrity-form input[type="file"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        width: 100%;
+        box-sizing: border-box;
+        background: white;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        flex: 1;
+    }
+
+    .form-control {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .btn-primary {
+        background-color: #28a745;
+    }
+
+    .btn-warning {
+        background-color: #dc3545;
+    }
+
+    .btn:hover {
+        filter: brightness(1.1);
+    }
+</style>

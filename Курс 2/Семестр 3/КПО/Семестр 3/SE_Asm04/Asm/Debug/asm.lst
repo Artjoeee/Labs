@@ -1,0 +1,72 @@
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    12/13/24 17:20:28
+asm.asm							     Page 1 - 1
+
+
+				.386
+				.model flat, stdcall
+				.stack 4096
+
+ 00000000			.data
+ 00000000			    longVar QWORD 123456789
+	   00000000075BCD15
+ 00000008 FF			    uint8Literal BYTE 255
+
+ 00000000			.code
+ 00000000			main PROC
+ 00000000  A1 00000000 R	    mov eax, DWORD PTR longVar
+ 00000005  8B 15 00000004 R	    mov edx, DWORD PTR longVar + 4
+ 0000000B  8A 1D 00000008 R	    mov bl, BYTE PTR uint8Literal
+ 00000011  80 FB FF		    cmp bl, 255
+ 00000014  75 07		    jne _error
+ 00000016  B8 00000000		    mov eax, 0
+ 0000001B  EB 05		    jmp _exit
+ 0000001D			_error:
+ 0000001D  B8 00000001		    mov eax, 1
+ 00000022			_exit:
+ 00000022  C3			    ret
+ 00000023			main ENDP
+
+				END main
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    12/13/24 17:20:28
+asm.asm							     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 DWord	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000009 DWord	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000023 DWord	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000023 Public STDCALL
+  _error . . . . . . . . . . . .	L Near	 0000001D _TEXT	
+  _exit  . . . . . . . . . . . .	L Near	 00000022 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+longVar  . . . . . . . . . . . .	QWord	 00000000 _DATA	
+uint8Literal . . . . . . . . . .	Byte	 00000008 _DATA	
+
+	   0 Warnings
+	   0 Errors

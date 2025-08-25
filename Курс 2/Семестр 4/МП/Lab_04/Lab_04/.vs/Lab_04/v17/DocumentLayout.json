@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{162BC5F5-53AC-4984-88F9-4379F38FBECA}|Lab_04_5\\Lab_04_5.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_5\\Lab_04_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{162BC5F5-53AC-4984-88F9-4379F38FBECA}|Lab_04_5\\Lab_04_5.vcxproj|solutionrelative:Lab_04_5\\Lab_04_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74B3B18-3BEE-4081-8F6E-254AC967F8FF}|Lab_04_2\\Lab_04_2.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_2\\Lab_04_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D74B3B18-3BEE-4081-8F6E-254AC967F8FF}|Lab_04_2\\Lab_04_2.vcxproj|solutionrelative:Lab_04_2\\Lab_04_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB27084-1BB1-4574-8DA3-EF7E528E5379}|Lab_04_1\\Lab_04_1.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_1\\Lab_04_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DB27084-1BB1-4574-8DA3-EF7E528E5379}|Lab_04_1\\Lab_04_1.vcxproj|solutionrelative:Lab_04_1\\Lab_04_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 49,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab_04_1.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_1\\Lab_04_1.cpp",
+              "RelativeDocumentMoniker": "Lab_04_1\\Lab_04_1.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_1\\Lab_04_1.cpp",
+              "RelativeToolTip": "Lab_04_1\\Lab_04_1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T15:28:47.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab_04_2.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_2\\Lab_04_2.cpp",
+              "RelativeDocumentMoniker": "Lab_04_2\\Lab_04_2.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_2\\Lab_04_2.cpp",
+              "RelativeToolTip": "Lab_04_2\\Lab_04_2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T15:29:09.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab_04_5.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_5\\Lab_04_5.cpp",
+              "RelativeDocumentMoniker": "Lab_04_5\\Lab_04_5.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_04\\Lab_04\\Lab_04_5\\Lab_04_5.cpp",
+              "RelativeToolTip": "Lab_04_5\\Lab_04_5.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-20T14:42:04.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

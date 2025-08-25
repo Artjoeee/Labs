@@ -1,0 +1,30 @@
+[
+  {
+    "Budget": "705,6",
+    "Name": "C#",
+    "Age": "26 - 35",
+    "Complexity": "Продвинутый",
+    "LecturesCount": "4",
+    "LabsCount": "8",
+    "TypeOfControl": "Экзамен",
+    "Teacher": "Чешун А. А. - ИСИТ - 100",
+    "ListOfReferences": [
+      "Основы программирования - Основыч Б. Б. - 2005",
+      "Изучение JavaScript - Скриптыч П. П. - 2015"
+    ]
+  },
+  {
+    "Budget": "576",
+    "Name": "Python",
+    "Age": "18 - 25",
+    "Complexity": "Новичок",
+    "LecturesCount": "4",
+    "LabsCount": "6",
+    "TypeOfControl": "Зачет",
+    "Teacher": "Пинчук А. С. - ПИ - 101",
+    "ListOfReferences": [
+      "Основы программирования - Основыч Б. Б. - 2005",
+      "Программирование на C# - Шарпыч Г. Г. - 2017"
+    ]
+  }
+]

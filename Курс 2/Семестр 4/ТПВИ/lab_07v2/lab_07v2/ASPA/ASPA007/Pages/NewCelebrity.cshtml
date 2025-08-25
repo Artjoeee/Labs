@@ -1,0 +1,167 @@
+﻿@page
+@using DAL_Celebrity_MSSQL
+@using ANC_25_WEBAPI_DLL
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@model ASPA007.Pages.NewCelebrityModel
+@{
+    Layout = "_Layout";
+    int h = 200, w = 350;
+    bool Confirm = Model.Confirm;
+    Celebrity celebrity = Model.Celebrity ?? new Celebrity();
+}
+
+<div class="celebrity-container">
+    @if (!Confirm)
+    {
+        <div class="celebrity-card">
+            <img src="@Model.PhotosRequestPath/NewCelebrity.jpg" alt="Add New Celebrity" />
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(celebrity.ReqPhotoPath))
+    {
+        <div class="celebrity-card">
+            <img id="celebrityPhoto"
+                 title="@celebrity.FullName"
+                 src="@($"{Model.PhotosRequestPath}/{celebrity.ReqPhotoPath}")"
+                 onload="onPhotoLoad(this, @h)"
+                 alt="@celebrity.FullName" />
+        </div>
+    }
+
+    <form method="post" enctype="multipart/form-data" class="celebrity-form">
+        <input name="__RequestVerificationToken" type="hidden" value="@Antiforgery.GetAndStoreTokens(HttpContext).RequestToken" />
+
+        <label for="fullname">Full Name</label>
+        <input name="Celebrity.FullName" id="fullname" type="text" value="@celebrity.FullName"
+        @(Confirm ? "readonly" : "") required />
+
+        <label for="nationality">Nationality (2 letters)</label>
+        <input name="Celebrity.Nationality" id="nationality" type="text" value="@celebrity.Nationality"
+               minlength="2" maxlength="2" @(Confirm ? "readonly" : "") required />
+
+        @if (!Confirm)
+        {
+            <label for="upload">Photo Path</label>
+            <input type="file" name="Upload" id="upload" accept=".jpg,.jpeg,.png" />
+        }
+        else
+        {
+            <input type="hidden" name="Celebrity.ReqPhotoPath" value="@celebrity.ReqPhotoPath" />
+        }
+
+        <div class="button-group">
+            @if (Confirm)
+            {
+                <button name="press" type="submit" value="confirm" class="btn btn-success">SAVE</button>
+                <button type="button" onclick="window.location.href='@Url.Page("NewCelebrity")'" class="btn btn-danger">CANCEL</button>
+            }
+            else
+            {
+                <button name="press" type="submit" value="save" class="btn btn-primary">CONFIRMATION</button>
+                <button type="reset" class="btn btn-warning">CANCEL</button>
+            }
+        </div>
+    </form>
+</div>
+
+<style>
+    .celebrity-container {
+        display: flex;
+        gap: 40px;
+        padding: 30px;
+        align-items: flex-start;
+    }
+
+    .celebrity-card {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .celebrity-card img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .celebrity-form {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: #fafafa;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .celebrity-form label {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .celebrity-form input[type="text"],
+    .celebrity-form input[type="file"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        width: 100%;
+        box-sizing: border-box;
+        background: white;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        flex: 1;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+        color: #212529;
+    }
+
+    .btn:hover {
+        filter: brightness(1.1);
+    }
+</style>
+
+<script>
+    function onPhotoLoad(img, maxHeight) {
+        if (img.naturalHeight > maxHeight) {
+            img.style.height = maxHeight + 'px';
+            img.style.width = 'auto';
+        }
+    }
+</script>

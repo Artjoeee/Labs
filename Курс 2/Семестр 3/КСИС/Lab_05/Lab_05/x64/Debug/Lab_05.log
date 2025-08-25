@@ -1,0 +1,60 @@
+﻿Сборка начата 23.11.2024 15:01:33.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.vcxproj" в узле 2 (целевые объекты ClCompile).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\Lab_05.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Lab_05.cpp
+         Lab_05.cpp
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(15,9): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(173,9):
+             см. предыдущее определение "IP_DEST_NET_UNREACHABLE"
+         
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(16,9): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(174,9):
+             см. предыдущее определение "IP_DEST_HOST_UNREACHABLE"
+         
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(17,9): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(175,9):
+             см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
+         
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(18,9): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(176,9):
+             см. предыдущее определение "IP_DEST_PORT_UNREACHABLE"
+         
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(19,9): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(181,9):
+             см. предыдущее определение "IP_REQ_TIMED_OUT"
+         
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(20,9): warning C4005: IP_BAD_REQ: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(182,9):
+             см. предыдущее определение "IP_BAD_REQ"
+         
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(21,9): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(183,9):
+             см. предыдущее определение "IP_BAD_ROUTE"
+         
+     1>C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(22,9): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ipexport.h(184,9):
+             см. предыдущее определение "IP_TTL_EXPIRED_TRANSIT"
+         
+     1>Сборка проекта "C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.vcxproj" завершена (целевые объекты ClCompile).
+
+Сборка успешно завершена.
+
+       "C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.vcxproj" (целевой объект ClCompile ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(15,9): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(16,9): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(17,9): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(18,9): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(19,9): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(20,9): warning C4005: IP_BAD_REQ: изменение макроопределения
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(21,9): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+         C:\Users\HomeUser\Desktop\КСИС\Lab_05\Lab_05\Lab_05.cpp(22,9): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+
+    Предупреждений: 8
+    Ошибок: 0
+
+Прошло времени 00:00:01.21

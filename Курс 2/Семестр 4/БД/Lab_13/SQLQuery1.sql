@@ -1,0 +1,17 @@
+USE UNIVER;
+
+-- 1
+GO
+CREATE PROCEDURE PSUBJECT
+AS
+BEGIN 
+	DECLARE @k int = (SELECT COUNT(*) FROM SUBJECT);
+	SELECT *  FROM SUBJECT;
+	RETURN @k;
+END;
+GO
+
+DECLARE @k int = 0;
+EXEC @k = PSUBJECT;
+PRINT N'Количество строк: ' + cast(@k as  varchar(3));
+

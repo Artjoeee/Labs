@@ -1,0 +1,10 @@
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\bin\Debug\Lab_01.exe.config
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\bin\Debug\Lab_01.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\bin\Debug\Lab_01.pdb
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\obj\Debug\Lab_01.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\obj\Debug\Lab_01.Properties.Resources.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\obj\Debug\Lab_01.csproj.GenerateResource.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\obj\Debug\Lab_01.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\obj\Debug\Lab_01.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\obj\Debug\Lab_01.pdb
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_01\Lab_01\obj\Debug\Lab_01.Calculator.resources

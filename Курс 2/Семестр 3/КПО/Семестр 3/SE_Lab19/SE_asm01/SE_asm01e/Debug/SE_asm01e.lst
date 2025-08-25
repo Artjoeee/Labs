@@ -1,0 +1,169 @@
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    01/03/25 19:52:29
+SE_asm01e.asm						     Page 1 - 1
+
+
+				.586
+				.model flat,stdcall
+				includelib kernel32.lib
+				includelib libucrt.lib
+				includelib ..\Debug\SE_asm01d.lib
+
+
+				ExitProcess PROTO : DWORD
+				MessageBoxA PROTO : DWORD, : DWORD, : DWORD, : DWORD
+				EXTRN getmax: proc
+				EXTRN getmin: proc
+
+				.stack 4096
+ 00000000			.const
+ 00000000 00000005		Arr sdword 5, 12, -9, 37, 46, 0, -14, 52, 110, -2
+	   0000000C
+	   FFFFFFF7
+	   00000025
+	   0000002E
+	   00000000
+	   FFFFFFF2
+	   00000034
+	   0000006E
+	   FFFFFFFE
+
+ 00000000			.data
+ = 00000000			MB_OK	EQU 0  
+
+ 00000000 67 65 74 6D 61	result1	BYTE "getmax + getmin = ", 0
+	   78 20 2B 20 67
+	   65 74 6D 69 6E
+	   20 3D 20 00
+ 00000013 00000000		result	sdword 0
+ 00000017  00000028 [		result2	BYTE 40 dup(0)	; буфер для хранения результата
+	    00
+	   ]
+
+ 0000003F C6 E0 EC EE E9	STR1	DB "Жамойдо Артём Игоревич", 0 
+	   E4 EE 20 C0 F0
+	   F2 B8 EC 20 C8
+	   E3 EE F0 E5 E2
+	   E8 F7 00
+ 00000056 00000000		HW		DD ?  
+
+ 00000000			.code
+
+ 00000000			main PROC
+ 00000000			START:	
+ 00000000  6A 0A			push lengthof Arr	; длина(количество элементов массива)
+ 00000002  68 00000000 R		push offset Arr		; смещение
+ 00000007  E8 00000000 E		call getmin
+
+ 0000000C  A3 00000013 R		mov result, eax
+
+ 00000011  6A 0A			push lengthof Arr	; длина(количество элементов массива)
+ 00000013  68 00000000 R		push offset Arr		; смещение
+ 00000018  E8 00000000 E		call getmax
+
+ 0000001D  01 05 00000013 R		add result, eax
+ 00000023  33 C0			xor eax, eax
+
+					; Конвертация числа в строку
+ 00000025  FF 35 00000013 R		push result
+ 0000002B  68 00000017 R		push offset result2
+ 00000030  E8 0000002D			call tochar
+					
+					invoke MessageBoxA, 0, offset result1, offset STR1, MB_OK
+					invoke MessageBoxA, 0, offset result2, offset STR1, MB_OK
+
+ 0000005B  6A 00		 	push 0  
+ 0000005D  E8 00000000 E		CALL ExitProcess 
+
+ 00000062			main ENDP 
+
+				; Преобразование числа
+ 00000062			tochar PROC uses eax ebx ecx edi esi, pstr : dword, intfield : sdword
+ 0000006A  8B 7D 08			mov edi, pstr		; edi: Указывает на буфер.
+ 0000006D  BE 00000000			mov esi, 0
+ 00000072  8B 45 0C			mov eax, intfield	; eax: Хранит число для обработки
+ 00000075  99				cdq					; cdq: Расширяет знак из eax в edx
+ 00000076  BB 0000000A			mov ebx, 10
+ 0000007B  F7 FB			idiv ebx			; idiv ebx: Делит eax на 10. Остаток (edx) — это следующая цифра
+
+					; Цикл обработки цифр
+ 0000007D			cycle:
+ 0000007D  66| 52			push dx
+ 0000007F  46				inc esi
+ 00000080  85 C0			test eax, eax
+ 00000082  74 05			jz fin
+ 00000084  99				cdq
+ 00000085  F7 FB			idiv ebx
+ 00000087  EB F4			jmp cycle
+
+					; Обратная запись цифр
+ 00000089			fin:
+ 00000089  8B CE			mov ecx, esi
+ 0000008B			write: 
+ 0000008B  66| 5B			pop bx
+ 0000008D  80 C3 30			add bl, '0'		; преобразует их в ASCII
+ 00000090  88 1F			mov[edi], bl
+ 00000092  47				inc edi
+ 00000093  E2 F6			loop write
+					ret
+ 0000009E			tochar ENDP
+
+
+				end main  
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    01/03/25 19:52:29
+SE_asm01e.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000028 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000005A Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000009E Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000062 Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000000 _TEXT	
+tochar . . . . . . . . . . . . .	P Near	 00000062 _TEXT	Length= 0000003C Public STDCALL
+  pstr . . . . . . . . . . . . .	DWord	 bp + 00000008
+  intfield . . . . . . . . . . .	DWord	 bp + 0000000C
+  cycle  . . . . . . . . . . . .	L Near	 0000007D _TEXT	
+  fin  . . . . . . . . . . . . .	L Near	 00000089 _TEXT	
+  write  . . . . . . . . . . . .	L Near	 0000008B _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+Arr  . . . . . . . . . . . . . .	DWord	 00000000 CONST	
+HW . . . . . . . . . . . . . . .	DWord	 00000056 _DATA	
+MB_OK  . . . . . . . . . . . . .	Number	 00000000h   
+STR1 . . . . . . . . . . . . . .	Byte	 0000003F _DATA	
+getmax . . . . . . . . . . . . .	L Near	 00000000 FLAT	External STDCALL
+getmin . . . . . . . . . . . . .	L Near	 00000000 FLAT	External STDCALL
+result1  . . . . . . . . . . . .	Byte	 00000000 _DATA	
+result2  . . . . . . . . . . . .	Byte	 00000017 _DATA	
+result . . . . . . . . . . . . .	DWord	 00000013 _DATA	
+
+	   0 Warnings
+	   0 Errors

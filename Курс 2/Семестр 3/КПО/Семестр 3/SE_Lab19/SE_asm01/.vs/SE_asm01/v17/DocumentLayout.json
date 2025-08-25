@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE48070-032D-4DFF-B71E-6F9A41EB0C8C}|SE_asm01e\\SE_asm01e.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01e\\SE_asm01e.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4FE48070-032D-4DFF-B71E-6F9A41EB0C8C}|SE_asm01e\\SE_asm01e.vcxproj|solutionrelative:SE_asm01e\\SE_asm01e.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D93593F-D1F8-4CA0-BC85-252F5CE7C298}|SE_asm01d\\SE_asm01d.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01d\\SE_asm01d.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D93593F-D1F8-4CA0-BC85-252F5CE7C298}|SE_asm01d\\SE_asm01d.vcxproj|solutionrelative:SE_asm01d\\SE_asm01d.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1005EE-D675-4C25-9DA4-EACF59F4BE0F}|SE_asm01c\\SE_asm01c.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01c\\SE_asm01c.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A1005EE-D675-4C25-9DA4-EACF59F4BE0F}|SE_asm01c\\SE_asm01c.vcxproj|solutionrelative:SE_asm01c\\SE_asm01c.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6D2746-737D-46C3-B988-955C9829020E}|SE_asm01b\\SE_asm01b.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01b\\SE_asm01b.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6F6D2746-737D-46C3-B988-955C9829020E}|SE_asm01b\\SE_asm01b.vcxproj|solutionrelative:SE_asm01b\\SE_asm01b.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A82866D-127E-4796-B703-7C498C45A9E8}|SE_asm01a\\SE_asm01a.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01a\\SE_asm01a.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9A82866D-127E-4796-B703-7C498C45A9E8}|SE_asm01a\\SE_asm01a.vcxproj|solutionrelative:SE_asm01a\\SE_asm01a.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A8E5DE4-E8C0-4131-B1C3-9ADCAD9218A3}|SE_asm01\\SE_asm01.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01\\SE_asm01.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A8E5DE4-E8C0-4131-B1C3-9ADCAD9218A3}|SE_asm01\\SE_asm01.vcxproj|solutionrelative:SE_asm01\\SE_asm01.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SE_asm01.asm",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01\\SE_asm01.asm",
+              "RelativeDocumentMoniker": "SE_asm01\\SE_asm01.asm",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01\\SE_asm01.asm",
+              "RelativeToolTip": "SE_asm01\\SE_asm01.asm",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-27T15:06:52.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SE_asm01a.asm",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01a\\SE_asm01a.asm",
+              "RelativeDocumentMoniker": "SE_asm01a\\SE_asm01a.asm",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01a\\SE_asm01a.asm",
+              "RelativeToolTip": "SE_asm01a\\SE_asm01a.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-27T15:06:52.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SE_asm01b.asm",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01b\\SE_asm01b.asm",
+              "RelativeDocumentMoniker": "SE_asm01b\\SE_asm01b.asm",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01b\\SE_asm01b.asm",
+              "RelativeToolTip": "SE_asm01b\\SE_asm01b.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-27T15:06:52.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SE_asm01c.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01c\\SE_asm01c.cpp",
+              "RelativeDocumentMoniker": "SE_asm01c\\SE_asm01c.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01c\\SE_asm01c.cpp",
+              "RelativeToolTip": "SE_asm01c\\SE_asm01c.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-27T15:06:52.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SE_asm01d.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01d\\SE_asm01d.cpp",
+              "RelativeDocumentMoniker": "SE_asm01d\\SE_asm01d.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01d\\SE_asm01d.cpp",
+              "RelativeToolTip": "SE_asm01d\\SE_asm01d.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-27T15:06:52.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SE_asm01e.asm",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01e\\SE_asm01e.asm",
+              "RelativeDocumentMoniker": "SE_asm01e\\SE_asm01e.asm",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u041F\u041E\\SE_Lab19\\SE_asm01\\SE_asm01e\\SE_asm01e.asm",
+              "RelativeToolTip": "SE_asm01e\\SE_asm01e.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-27T15:06:52.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

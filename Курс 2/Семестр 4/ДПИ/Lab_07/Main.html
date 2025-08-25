@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportics</title>
+    <link rel="stylesheet" href="css/scss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fa-solid fa-dumbbell"></i> SPORTICS </a>
+
+        <nav class="navbar">
+            <a href="#">Главная</a>
+            <a href="#">Услуги</a>
+            <a href="#">Абонементы</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Новости</a>
+            <a href="#">Тренеры</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="поиск...">
+            <label for="search-box" class="fas fa-search" id="search-icon"></label>
+        </form>
+
+        <form class="login-form">
+            <h3>Вход</h3>
+            <input type="email" placeholder="почта" class="box" id="entry">
+            <input type="password" placeholder="пароль" class="box" id="password">
+            <p>Забыли пароль? <a href="#">Жмите сюда</a></p>
+            <p>Нет аккаунта? <a href="#">Создайте сейчас</a></p>
+            <input type="submit" value="Войти" class="btn" onclick="login()">
+        </form>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Лучшие <span>абонементы</span> для вас!</h3>
+            <p>Шагай к победе с надежным спортивным оборудованием!</p>
+            <a href="#" class="btn">Купите сейчас</a>
+        </div>
+
+    </section>
+
+    <section class="features" id="features">
+
+        <h1 class="heading"><span>Услуги</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/Healthy options-amico.svg" alt="">
+                <h3>Подбор питания</h3>
+                <p>"Подбор питания" - это основа для активной жизни. Наш магазин предлагает...</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+            <div class="box">
+                <img src="images/Coach-cuate.svg" alt="">
+                <h3>Тренировки</h3>
+                <p>Мы проводим групповые и индивидуальные тренировки по следующим направлениям...
+                </p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+            <div class="box">
+                <img src="images/Facial massage-amico.svg" alt="">
+                <h3>Процедуры</h3>
+                <p>Мы предоставляем различные оздоровительные процедуры в нашем центре. Они позволят вам...
+                </p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="belbet">
+            <div class="width">
+                <a href="#">
+                    <img src="images/belbet.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="products" id="products">
+
+        <h1 class="heading"><span>Абонементы</span></h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал1.jpg" alt="">
+                    <h3>Месяц (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал2.jpg" alt="">
+                    <h3>Год (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал3.jpg" alt="">
+                    <h3>Месяц (8:00-16:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал1.jpg" alt="">
+                    <h3>Год (8:00-16:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал2.jpg" alt="">
+                    <h3>Месяц (16:00-23:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал3.jpg" alt="">
+                    <h3>Год (16:00-23:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал1.jpg" alt="">
+                    <h3>Месяц (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал2.jpg" alt="">
+                    <h3>Год (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-scrollbar"></div>
+
+        </div>
+
+        
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал3.jpg" alt="">
+                    <h3>Месяц (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал1.jpg" alt="">
+                    <h3>Год (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал2.jpg" alt="">
+                    <h3>Месяц (8:00-16:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал3.jpg" alt="">
+                    <h3>Год (8:00-16:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал1.jpg" alt="">
+                    <h3>Месяц (16:00-23:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал2.jpg" alt="">
+                    <h3>Год (16:00-23:00)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал3.jpg" alt="">
+                    <h3>Месяц (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Спортзал1.jpg" alt="">
+                    <h3>Месяц (24/7)</h3>
+                    <div class="price">Тренажерный зал</div>
+                    <div class="price">$4.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-scrollbar"></div>
+
+        </div>
+
+    </section>
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"><span>Тренеры</span></h1>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/kaminskiy-nikita.jpg" alt="">
+                <h3>Олег</h3>
+                <p>Тренажерный зал</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+            <div class="box">
+                <img src="images/mariya-polyakova_2.jpg" alt="">
+                <h3>Алиса</h3>
+                <p>Йога</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+            <div class="box">
+                <img src="images/pavel-delendik.jpg" alt="">
+                <h3>Игорь</h3>
+                <p>Фитнес</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+            <div class="box">
+                <img src="images/miseiko-arseniy.jpg" alt="">
+                <h3>Крис</h3>
+                <p>Фитнес</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+
+        <h1 class="heading"><span>Отзывы</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/client.jpg" alt="">
+                    <p>"Этот сайт стал для меня настоящим помощником в поиске абонементов. Широкий выбор,
+                        удобная навигация и подробная информация делают заказы здесь приятным и удовлетворительным опытом."
+                   </p>
+                    <h3>Вадим</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/man1.jpg" alt="">
+                    <p>"Этот сайт стал для меня настоящим помощником в поиске абонементов. Широкий выбор,
+                        удобная навигация и подробная информация делают заказы здесь приятным и удовлетворительным опытом."
+                   </p>
+                    <h3>Николай</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/man2.jpg" alt="">
+                    <p>"Этот сайт стал для меня настоящим помощником в поиске абонементов. Широкий выбор,
+                        удобная навигация и подробная информация делают заказы здесь приятным и удовлетворительным опытом."
+                   </p>
+                    <h3>Артём</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/man4.jpg" alt="">
+                    <p>"Этот сайт стал для меня настоящим помощником в поиске абонементов. Широкий выбор,
+                        удобная навигация и подробная информация делают заказы здесь приятным и удовлетворительным опытом."
+                   </p>
+                    <h3>Александр</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/man3.jpg" alt="">
+                    <p>"Этот сайт стал для меня настоящим помощником в поиске абонементов. Широкий выбор,
+                        удобная навигация и подробная информация делают заказы здесь приятным и удовлетворительным опытом."
+                   </p>
+                    <h3>Вадим</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+            <div class="swiper-scrollbar"></div>
+
+        </div>
+
+    </section>
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"><span>Новости</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/about-img.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> Иван</a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 6-го мая, 2025</a>
+                    </div>
+                    <h3>Новое оборудование</h3>
+                    <p>Мы с радостью объявляем о появлении нового спортивного оборудования! Вы можете...</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/betera2.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> Андрей</a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 7-го мая, 2025</a>
+                    </div>
+                    <h3>Новые спонсоры</h3>
+                    <p>С волнением сообщаем, что мы заключили партнерство с Betera!
+                        Это сотрудничество...
+                    </p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/hero-bg.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> Егор</a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 8-го мая, 2025</a>
+                    </div>
+                    <h3>Наши успехи за месяц</h3>
+                    <p>За прошедший месяц наш центр достиг значительных успехов!
+                        Увеличение количества...
+                    </p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        
+        <div class="betera">
+            <div class="width">
+                <a href="#">
+                    <img src="images/betera.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> SPORTICS <i class="fa-solid fa-dumbbell"></i></h3>
+                <p>Спорт для активной жизни!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Контакты</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +375 (44) 573-04-02 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +375 (29) 373-52-56 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> sportics@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Минск, ул. Беларусская, 21 </a>
+            </div>
+
+            <div class="box">
+                <h3>Ссылки</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Главная </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Услуги </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Товары </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Категории </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Отзывы </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Новости </a>  
+            </div>
+
+            <div class="box">
+                <h3 id="one">Рассылка</h3>
+                <p>Подпишитесь на последние обнавления</p>
+                <input type="submit" onclick="" value="Подписаться" class="btn">
+                <img src="images/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>Artiom Zhamoida</span> | all rights reserved</div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/slider.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

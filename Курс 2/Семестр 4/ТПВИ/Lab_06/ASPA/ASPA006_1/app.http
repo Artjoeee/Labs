@@ -1,0 +1,37 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@hp=https://localhost:7243  
+@lapi=/api/Lifeevents
+@capi=/api/Celebrities          
+
+
+
+Post {{hp}}{{lapi}}
+Content-Type:application/json
+{
+  "celebrityId": 12,
+  "date": "1944-03-16T00:00:00",
+  "description": "Описание",
+  "reqPhotoPath": null
+}
+### Bce знаменитости
+### celebrities.MapGet("/",
+# GET {{hp}}{{capi}}/photo/Ershov.jpg
+
+### оп ID
+###GET {{hp}}{{capi}}/7
+
+###GET {{hp}}{{capi}}/Lifeevents/7
+
+###DELETE {{hp}}{{capi}}/16
+
+# PUT {{hp}}{{capi}}/17
+# Content-Type:application/json
+# {
+#   "fullname": "Ершов Андрей Петрович",
+#   "nationality": "RU",
+#   "reqPhotoPath": "Ershov.jpg"
+# }
+#-----------------------------------------------
+GET {{hp}}{{lapi}}
+
+###DELETE {{hp}}{{lapi}}/26

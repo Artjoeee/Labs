@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\anc_25_webapi_dll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\anc_25_webapi_dll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\service\\countrycodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\service\\countrycodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\service\\celebritytitles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\service\\celebritytitles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\pages\\celebrities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\pages\\celebrities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\aspa007.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\aspa007.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\pages\\celebrity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\pages\\celebrity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\pages\\celebrity.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\pages\\celebrity.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\service\\celebrityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\service\\celebrityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\data\\celebritycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\data\\celebritycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\pages\\celebrities.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\pages\\celebrities.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\pages\\newcelebrity.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\pages\\newcelebrity.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\celebrityapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\celebrityapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\pages\\newcelebrity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\pages\\newcelebrity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\aspa007\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{82C0B38E-8135-4611-B5F1-D639B726CE76}|ASPA007\\ASPA007.csproj|solutionrelative:aspa007\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|c:\\users\\yarok\\desktop\\\u0441\u0442\u0430\u0441\u044F\u043D\\4_\u0441\u0435\u043C_\u043B\u0430\u0431\u044B\\\u0442\u043F\u0432\u0438\\lab_07v2\\aspa\\anc_25_webapi_dll\\middlewareerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72B8472-C53E-453C-A9A2-E235A196EEDD}|ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj|solutionrelative:anc_25_webapi_dll\\middlewareerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CelebritiesConfig.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\CelebritiesConfig.cs",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\CelebritiesConfig.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\CelebritiesConfig.cs",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\CelebritiesConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:57:36.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA007\\Program.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Program.cs",
+              "RelativeToolTip": "ASPA007\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:04:29.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CelebrityTitles.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Service\\CelebrityTitles.cs",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\Service\\CelebrityTitles.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Service\\CelebrityTitles.cs",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\Service\\CelebrityTitles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:17:20.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CountryCodes.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Service\\CountryCodes.cs",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\Service\\CountryCodes.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Service\\CountryCodes.cs",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\Service\\CountryCodes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:17:58.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\appsettings.json",
+              "RelativeDocumentMoniker": "ASPA007\\appsettings.json",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\appsettings.json",
+              "RelativeToolTip": "ASPA007\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T08:06:31.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ANC_25_WEBAPI_DLL.csproj",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\ANC_25_WEBAPI_DLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-08T17:08:59.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ASPA007.csproj",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\ASPA007.csproj",
+              "RelativeDocumentMoniker": "ASPA007\\ASPA007.csproj",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\ASPA007.csproj",
+              "RelativeToolTip": "ASPA007\\ASPA007.csproj",
+              "ViewState": "AgIAABkAAAAAAAAAAABBwB8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-01T17:56:50.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Celebrities.cshtml",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrities.cshtml",
+              "RelativeDocumentMoniker": "ASPA007\\Pages\\Celebrities.cshtml",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrities.cshtml",
+              "RelativeToolTip": "ASPA007\\Pages\\Celebrities.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T14:22:15.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Celebrity.cshtml",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrity.cshtml",
+              "RelativeDocumentMoniker": "ASPA007\\Pages\\Celebrity.cshtml",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrity.cshtml",
+              "RelativeToolTip": "ASPA007\\Pages\\Celebrity.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T15:52:22.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Celebrity.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrity.cshtml.cs",
+              "RelativeDocumentMoniker": "ASPA007\\Pages\\Celebrity.cshtml.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrity.cshtml.cs",
+              "RelativeToolTip": "ASPA007\\Pages\\Celebrity.cshtml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwEIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:25:32.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CelebrityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Service\\CelebrityRepository.cs",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\Service\\CelebrityRepository.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Service\\CelebrityRepository.cs",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\Service\\CelebrityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:12:27.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CelebrityContext.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Data\\CelebrityContext.cs",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\Data\\CelebrityContext.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\Data\\CelebrityContext.cs",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\Data\\CelebrityContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:08:55.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Celebrities.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrities.cshtml.cs",
+              "RelativeDocumentMoniker": "ASPA007\\Pages\\Celebrities.cshtml.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Celebrities.cshtml.cs",
+              "RelativeToolTip": "ASPA007\\Pages\\Celebrities.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:22:18.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NewCelebrity.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\NewCelebrity.cshtml.cs",
+              "RelativeDocumentMoniker": "ASPA007\\Pages\\NewCelebrity.cshtml.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\NewCelebrity.cshtml.cs",
+              "RelativeToolTip": "ASPA007\\Pages\\NewCelebrity.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:37:12.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPA007\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPA007\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T14:13:38.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CelebrityAPI.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\CelebrityAPI.cs",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\CelebrityAPI.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\CelebrityAPI.cs",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\CelebrityAPI.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwGsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:58:05.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NewCelebrity.cshtml",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\NewCelebrity.cshtml",
+              "RelativeDocumentMoniker": "ASPA007\\Pages\\NewCelebrity.cshtml",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\Pages\\NewCelebrity.cshtml",
+              "RelativeToolTip": "ASPA007\\Pages\\NewCelebrity.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T08:04:11.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Layout.css",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\wwwroot\\css\\Layout.css",
+              "RelativeDocumentMoniker": "ASPA007\\wwwroot\\css\\Layout.css",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ASPA007\\wwwroot\\css\\Layout.css",
+              "RelativeToolTip": "ASPA007\\wwwroot\\css\\Layout.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-02T15:46:43.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MiddlewareErrorHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "RelativeDocumentMoniker": "ANC_25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "ToolTip": "C:\\Users\\yarok\\Desktop\\\u0421\u0442\u0430\u0441\u044F\u043D\\4_\u0421\u0415\u041C_\u041B\u0410\u0411\u042B\\\u0422\u041F\u0432\u0418\\lab_07v2\\ASPA\\ANC_25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "RelativeToolTip": "ANC_25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAgwAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:58:19.153Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

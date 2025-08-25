@@ -1,0 +1,99 @@
+﻿@using ASPA008_1.Helpers
+
+@{
+    ViewData["Title"] = "Celebrities";
+}
+
+<div class="celebrities-container">
+    <div class="celebrities-grid">
+
+        <div class="celebrity-card add-new">
+            <a href="/NewCelebrity">
+                <img src="@Model.ReqPhotoPath/Images.jpg"
+                     alt="Add New Celebrity" />
+            </a>
+            <h3>Add New Celebrity</h3>
+        </div>
+
+
+        @foreach (var celebrity in Model.Celebrities)
+        {
+            @CelebrityHelpers.CelebrityPhoto(
+                     Html,
+                     celebrity.Id,
+                     celebrity.FullName,
+                     celebrity.Nationality,
+                     celebrity.ReqPhotoPath,
+                     Model.ReqPhotoPath
+            )
+        }
+
+    </div>
+</div>
+
+<style>
+    .celebrities-container {
+        padding: 20px;
+    }
+
+    .celebrities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 50px;
+    }
+
+    .celebrity-card {
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+        .celebrity-card:hover {
+            transform: scale(1.03);
+        }
+
+        .celebrity-card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .celebrity-card a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 300px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .close-button {
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>
+

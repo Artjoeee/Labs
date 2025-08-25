@@ -1,0 +1,8 @@
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\archive.zip
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\Lab_12.exe
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\Lab_12.exe.config
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\Lab_12.pdb
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\test.txt
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\zailogfile.txt
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\Extracted
+C:\Users\HomeUser\Desktop\ООП\Lab_12\Lab_12\bin\Debug\ZAIInspect

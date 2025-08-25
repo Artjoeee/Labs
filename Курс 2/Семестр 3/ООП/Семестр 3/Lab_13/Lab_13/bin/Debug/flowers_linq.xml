@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Flowers>
+  <Flower>
+    <Name>Роза</Name>
+    <Color>Красный</Color>
+    <ThornCount>10</ThornCount>
+  </Flower>
+  <Flower>
+    <Name>Лилия</Name>
+    <Color>Белый</Color>
+    <ThornCount>0</ThornCount>
+  </Flower>
+</Flowers>

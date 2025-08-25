@@ -1,0 +1,125 @@
+Microsoft (R) Macro Assembler Version 14.38.33133.0	    12/02/24 21:39:23
+SE_asm01.asm						     Page 1 - 1
+
+
+				.586
+				.model flat,stdcall
+				includelib kernel32.lib
+
+				ExitProcess PROTO : DWORD
+				MessageBoxA PROTO : DWORD, : DWORD, : DWORD, : DWORD
+
+				.stack 4096
+ 00000000			.const
+ 00000000 00000005		Arr sdword 5, 12, -9, 37, 46, 0, -14, 52, 101, -2
+	   0000000C
+	   FFFFFFF7
+	   00000025
+	   0000002E
+	   00000000
+	   FFFFFFF2
+	   00000034
+	   00000065
+	   FFFFFFFE
+
+ 00000000			.data
+ = 00000000			MB_OK	EQU 0  
+
+ 00000000 CE F0 EB EE E2	STR1	DB "Орловская Полина Валерьевна 2 курс 9 группа", 0 
+	   F1 EA E0 FF 20
+	   CF EE EB E8 ED
+	   E0 20 C2 E0 EB
+	   E5 F0 FC E5 E2
+	   ED E0 20 32 20
+	   EA F3 F0 F1 20
+	   39 20 E3 F0 F3
+	   EF EF E0 00
+ 0000002C 00000000		HW		DD ?  
+ 00000030 00000000		min sdword ?
+ 00000034 00000000		max sdword ?
+
+ 00000000			.code
+
+ 00000000			main PROC
+ 00000000			START:	
+ 00000000  6A 0A			push lengthof Arr	; длина(количество элементов массива)
+ 00000002  68 00000000 R		push offset Arr		; смещение
+ 00000007  E8 0000000C			call getmin
+ 0000000C  A3 00000030 R		mov min, eax
+
+ 00000011  6A 00			push 0  
+ 00000013  E8 00000000 E		CALL ExitProcess 
+
+ 00000018			main ENDP 
+
+ 00000018			getmin PROC uses ecx esi ebx, parr: dword, elem: dword
+ 0000001E  8B 4D 0C			mov ecx, elem
+ 00000021  8B 75 08			mov esi, parr
+ 00000024  8B 1E			mov ebx, [esi]
+ 00000026			CYCLE:
+ 00000026  AD				lodsd
+ 00000027  3B C3			cmp eax, ebx
+ 00000029  7D 01			jge FALSE		; переход, если больше или равно, т.е. левый операнд >= правого операнда
+ 0000002B  93				xchg ebx, eax	; Команда XCHG обменивает содержимое двух операндов
+ 0000002C			FALSE:
+ 0000002C  E2 F8			loop CYCLE
+ 0000002E  93				xchg eax, ebx
+						ret
+ 00000036			getmin ENDP
+
+
+				end main  
+Microsoft (R) Macro Assembler Version 14.38.33133.0	    12/02/24 21:39:23
+SE_asm01.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000028 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000038 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000036 Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+getmin . . . . . . . . . . . . .	P Near	 00000018 _TEXT	Length= 0000001E Public STDCALL
+  parr . . . . . . . . . . . . .	DWord	 bp + 00000008
+  elem . . . . . . . . . . . . .	DWord	 bp + 0000000C
+  CYCLE  . . . . . . . . . . . .	L Near	 00000026 _TEXT	
+  FALSE  . . . . . . . . . . . .	L Near	 0000002C _TEXT	
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000018 Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+Arr  . . . . . . . . . . . . . .	DWord	 00000000 CONST	
+HW . . . . . . . . . . . . . . .	DWord	 0000002C _DATA	
+MB_OK  . . . . . . . . . . . . .	Number	 00000000h   
+STR1 . . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+max  . . . . . . . . . . . . . .	DWord	 00000034 _DATA	
+min  . . . . . . . . . . . . . .	DWord	 00000030 _DATA	
+
+	   0 Warnings
+	   0 Errors

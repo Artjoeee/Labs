@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox Name="a" Width="100px" Height="20px" Margin="10"></TextBox>
+            <TextBox Name="x" Width="100px" Height="20px" Margin="10"></TextBox>
+            <Button Content="Возвести" Width="70px" Height="30px" Click="Button_Click"></Button>
+            <TextBlock Name="Value" Width="50px" Height="30px" Margin="10"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

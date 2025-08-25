@@ -1,0 +1,128 @@
+﻿@model DAL_Celebrity_MSSQL.Celebrity
+@{
+    Layout = "_Layout";
+    string PhotosRequestPath = ViewBag.PhotosRequestPath;
+    int h = 200;
+}
+
+<div class="celebrity-container">
+    <div class="celebrity-card">
+        <img id="celebrityPhoto"
+             title="@Model?.FullName"
+             src="@(
+                !string.IsNullOrEmpty(Model?.ReqPhotoPath)
+                    ? Url.Content($"~/Photos/{Model.ReqPhotoPath}?v={Guid.NewGuid()}")
+                    : Url.Content($"{PhotosRequestPath}/NewCelebrity.jpg")
+             )"
+             alt="@Model?.FullName ?? " Celebrity Photo""
+              />
+    </div>
+
+    <form method="post"
+          asp-action="Delete"
+          asp-controller="DelCelebrity"
+          asp-route-id="@Model.Id"
+          class="celebrity-form">
+        @Html.AntiForgeryToken()
+
+        <h2>Confirm Deletion</h2>
+
+        <p>Are you sure you want to delete this celebrity?</p>
+
+        <div>
+            <label><strong>Name:</strong></label>
+            <div class="form-control-plaintext">@Model.FullName</div>
+
+            <label><strong>Nationality:</strong></label>
+            <div class="form-control-plaintext">@Model.Nationality</div>
+        </div>
+
+        <div class="button-group">
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="Index" asp-controller="Celebrities" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+<style>
+    .celebrity-container {
+        display: flex;
+        gap: 40px;
+        padding: 30px;
+        align-items: flex-start;
+    }
+
+    .celebrity-card {
+        flex: 1;
+        max-width: 400px;
+    }
+
+        .celebrity-card img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .celebrity-form {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: #fafafa;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+        .celebrity-form h2 {
+            margin-bottom: 10px;
+            color: #dc3545;
+        }
+
+        .celebrity-form p {
+            font-size: 16px;
+            color: #333;
+        }
+
+    .form-control-plaintext {
+        padding: 10px;
+        background: #f1f1f1;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-weight: bold;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        flex: 1;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .btn:hover {
+        filter: brightness(1.1);
+    }
+</style>
+
+

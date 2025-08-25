@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ANC_25_WEBAPI_DLL">
+      <HintPath>..\..\..\Lab_07\ASPA\ANC_25_WEBAPI_DLL\bin\Debug\net8.0\ANC_25_WEBAPI_DLL.dll</HintPath>
+    </Reference>
+    <Reference Include="DAL_Celebrity">
+      <HintPath>..\..\..\Lab_06\ASPA\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.dll</HintPath>
+    </Reference>
+    <Reference Include="DAL_Celebrity_MSSQL">
+      <HintPath>..\..\..\Lab_06\ASPA\DAL_Celebrity_MSSQL\bin\Debug\net8.0\DAL_Celebrity_MSSQL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Photos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

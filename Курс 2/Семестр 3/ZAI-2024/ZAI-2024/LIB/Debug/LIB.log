@@ -1,0 +1,29 @@
+﻿Сборка начата 17.12.2024 1:46:38.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\LIB\LIB.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\LIB.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\LIB.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\Debug\LIB.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lib.cpp
+         Lib.cpp
+     1>C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\LIB\Lib.cpp(21,21): warning C4018: <: несоответствие типов со знаком и без знака
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\Debug\LIB.lib" /NOLOGO /MACHINE:X86 Debug\Lib.obj
+         LIB.vcxproj -> C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\Debug\LIB.lib
+       FinalizeBuildStatus:
+         Файл "Debug\LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LIB.tlog\LIB.lastbuildstate".
+     1>Сборка проекта "C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\LIB\LIB.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\LIB\LIB.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\HomeUser\Desktop\Курсовой проект\ZAI-2024\LIB\Lib.cpp(21,21): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.20

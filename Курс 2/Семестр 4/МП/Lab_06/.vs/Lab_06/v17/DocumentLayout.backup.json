@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Lab_06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|solutionrelative:Lab_06\\Lab_06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|solutionrelative:Lab_06\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|solutionrelative:Lab_06\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\BFS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|solutionrelative:Lab_06\\BFS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\BFS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|solutionrelative:Lab_06\\BFS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\DFS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|solutionrelative:Lab_06\\DFS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\DFS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13B1DBDC-8CCD-4027-B2F8-7E150125BCD0}|Lab_06\\Lab_06.vcxproj|solutionrelative:Lab_06\\DFS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 54,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DFS.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\DFS.cpp",
+              "RelativeDocumentMoniker": "Lab_06\\DFS.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\DFS.cpp",
+              "RelativeToolTip": "Lab_06\\DFS.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-14T22:00:46.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DFS.h",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\DFS.h",
+              "RelativeDocumentMoniker": "Lab_06\\DFS.h",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\DFS.h",
+              "RelativeToolTip": "Lab_06\\DFS.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-14T21:59:00.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BFS.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\BFS.cpp",
+              "RelativeDocumentMoniker": "Lab_06\\BFS.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\BFS.cpp",
+              "RelativeToolTip": "Lab_06\\BFS.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-14T21:57:44.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BFS.h",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\BFS.h",
+              "RelativeDocumentMoniker": "Lab_06\\BFS.h",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\BFS.h",
+              "RelativeToolTip": "Lab_06\\BFS.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-14T21:56:52.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Graph.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Graph.cpp",
+              "RelativeDocumentMoniker": "Lab_06\\Graph.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Graph.cpp",
+              "RelativeToolTip": "Lab_06\\Graph.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-14T21:55:51.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graph.h",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Graph.h",
+              "RelativeDocumentMoniker": "Lab_06\\Graph.h",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Graph.h",
+              "RelativeToolTip": "Lab_06\\Graph.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-14T21:55:08.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab_06.cpp",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Lab_06.cpp",
+              "RelativeDocumentMoniker": "Lab_06\\Lab_06.cpp",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u041C\u041F\\Lab_06\\Lab_06\\Lab_06.cpp",
+              "RelativeToolTip": "Lab_06\\Lab_06.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-14T21:40:38.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

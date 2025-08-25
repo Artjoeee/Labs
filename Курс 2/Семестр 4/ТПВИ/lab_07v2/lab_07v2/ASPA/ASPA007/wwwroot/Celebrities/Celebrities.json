@@ -1,0 +1,12 @@
+[
+  {"Id":1,  "Firstname":"Noam",   "Surname": "Chomsky",     "Nationality": "US", "PhotoPath": "/Photo/Chomsky.jpg"},
+  {"Id":2,  "Firstname":"Tim",    "Surname": "Berners-Lee", "Nationality": "UK", "PhotoPath": "/Photo/Berners-Lee.jpg"},
+  {"Id":3,  "Firstname":"Edgar",  "Surname": "Codd",        "Nationality": "US", "PhotoPath": "/Photo/Codd.jpg"}, 
+  {"Id":4,  "Firstname":"Donald", "Surname": "Knuth",       "Nationality": "US", "PhotoPath": "/Photo/Knuth.jpg"},
+  {"Id":5,  "Firstname":"Linus",  "Surname": "Torvalds",    "Nationality": "US", "PhotoPath": "/Photo/Torvalds.jpg"},
+  {"Id":6,  "Firstname":"John",   "Surname": "Neumann",     "Nationality": "US", "PhotoPath": "/Photo/Neumann.jpg"},
+  {"Id":7,  "Firstname":"Edsger", "Surname": "Dijkstra",    "Nationality": "NL", "PhotoPath": "/Photo/Dijkstra.jpg"},
+  {"Id":8,  "Firstname":"Ada",    "Surname": "Lovelace",    "Nationality": "UK", "PhotoPath": "/Photo/Lovelace.jpg"},
+  {"Id":9,  "Firstname":"Charles","Surname": "Babbage",     "Nationality": "UK", "PhotoPath": "/Photo/Babbage.jpg"},
+  {"Id":10, "Firstname":"Andrew", "Surname": "Tanenbaum",   "Nationality": "NL", "PhotoPath": "/Photo/Tanenbaum.jpg"}
+]     

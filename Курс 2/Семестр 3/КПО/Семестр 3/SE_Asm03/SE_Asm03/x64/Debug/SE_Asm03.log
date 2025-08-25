@@ -1,0 +1,39 @@
+﻿Сборка начата 13.12.2024 13:31:24.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\HomeUser\Desktop\КПО\SE_Asm03\SE_Asm03\SE_Asm03.vcxproj" в узле 2 (целевые объекты _MASM).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Asm03.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling asm03.asm...
+         cmd.exe /C "C:\Users\HomeUser\AppData\Local\Temp\tmpaf38f2c0490544899c65894d708b0d97.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm03.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm03.asm
+     1>asm03.asm(1): error A2008: syntax error : .
+     1>asm03.asm(2): error A2008: syntax error : .
+     1>asm03.asm(8): error A2008: syntax error : .
+     1>asm03.asm(50): error A2008: syntax error : MessageBoxA
+     1>asm03.asm(64): error A2008: syntax error : MessageBoxA
+     1>asm03.asm(72): error A2008: syntax error : main
+     1>asm03.asm(72): error A2088: END directive required at end of file
+     1>asm03.asm(25): error A2229: cannot use labels and 32-bit addressing in the same expression
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm03.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm03.asm" с кодом "1".
+     1>Сборка проекта "C:\Users\HomeUser\Desktop\КПО\SE_Asm03\SE_Asm03\SE_Asm03.vcxproj" завершена (целевые объекты _MASM) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\HomeUser\Desktop\КПО\SE_Asm03\SE_Asm03\SE_Asm03.vcxproj" (целевой объект _MASM ) (1) ->
+       (Целевой объект _MASM) -> 
+         asm03.asm(1): error A2008: syntax error : .
+         asm03.asm(2): error A2008: syntax error : .
+         asm03.asm(8): error A2008: syntax error : .
+         asm03.asm(50): error A2008: syntax error : MessageBoxA
+         asm03.asm(64): error A2008: syntax error : MessageBoxA
+         asm03.asm(72): error A2008: syntax error : main
+         asm03.asm(72): error A2088: END directive required at end of file
+         asm03.asm(25): error A2229: cannot use labels and 32-bit addressing in the same expression
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm03.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm03.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 9
+
+Прошло времени 00:00:00.63

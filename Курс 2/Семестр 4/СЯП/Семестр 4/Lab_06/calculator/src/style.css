@@ -1,0 +1,150 @@
+.CalculatorContainer {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 50px auto;
+    padding: 40px 24px;
+    border-radius: 32px;
+    background: #2c2c2c;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.Display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 2.5em;
+    border-radius: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.DisplayHistory {
+    color: #c3c3c3;
+    height: 10px;
+    padding: 5px 5px 5px 240px;
+}
+
+.ButtonContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    color: #ebebeb;
+}
+
+.ButtonSpecial {
+    height: 60px;
+    width: 60px;
+    background: #3c3c3c;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    transition: 0.3s, transform 0.1s, box-shadow 0.1s;
+    box-shadow: 0 4px 6px rgba(95, 73, 73, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+        inset 0 2px 4px rgba(255, 255, 255, 0.1),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ButtonSpecial:hover {
+    background: #5c5c5c;
+    cursor: pointer;
+}
+
+.ButtonSpecial:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2),
+        0 1px 2px rgba(0, 0, 0, 0.1),
+        inset 0 1px 2px rgba(255, 255, 255, 0.2),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ButtonSpecial.primary {
+    background: #3c3c3c;
+}
+
+.ButtonSpecial.primary:hover {
+    background: #5c5c5c;
+}
+
+.ButtonSpecial.special {
+    background: #462878;
+}
+
+.ButtonSpecial.special:hover {
+    background: #3e216d;
+}
+
+.ButtonSpecial.secondary {
+    background: #7f45e2;
+}
+
+.ButtonSpecial.secondary:hover {
+    background: #682cd1;
+}
+
+.CalculatorContainer.light {
+    background: #f0f0f0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.CalculatorContainer.light .Display {
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.CalculatorContainer.light .DisplayHistory {
+    color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.CalculatorContainer.light .ButtonSpecial {
+    background: #ddd;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.CalculatorContainer.light .ButtonSpecial:hover {
+    background: #bbb;
+    transition: background-color 0.3s ease;
+}
+
+.CalculatorContainer.light .ButtonSpecial.special {
+    background: #9b5de5;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.CalculatorContainer.light .ButtonSpecial.secondary {
+    background: #f15bb5;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.ThemeToggle {
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #b2b6ff;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    align-self: center;
+    transition: background-color 0.3s;
+    width: 50px;
+}
+
+.ThemeToggle:hover {
+    background-color: #4b52c4;
+}
+
+img {
+    width:20px; 
+    height:auto;
+}

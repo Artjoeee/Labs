@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\Layout.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ANC_25_WEBAPI_DLL\ANC_25_WEBAPI_DLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DAL_Celebrity">
+      <HintPath>..\..\..\lab_06\ASPA\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.dll</HintPath>
+    </Reference>
+    <Reference Include="DAL_Celebrity_MSSQL">
+      <HintPath>..\..\..\lab_06\ASPA\DAL_Celebrity_MSSQL\bin\Debug\net8.0\DAL_Celebrity_MSSQL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

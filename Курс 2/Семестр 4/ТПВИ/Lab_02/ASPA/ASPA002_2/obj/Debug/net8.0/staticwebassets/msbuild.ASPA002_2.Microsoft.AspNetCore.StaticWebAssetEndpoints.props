@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ASPA002_2/css/Neumann.0ri159mbzr.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Neumann.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0ri159mbzr"},{"Name":"integrity","Value":"sha256-LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ="},{"Name":"label","Value":"_content/ASPA002_2/css/Neumann.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"186"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:35:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASPA002_2/css/Neumann.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Neumann.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"186"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LB6oAQF2TWZ6uErpCrlksBmluidj8NGgz1ed2x6VSYQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:35:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASPA002_2/js/Neumann.8qdyfrlarw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Neumann.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8qdyfrlarw"},{"Name":"integrity","Value":"sha256-AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj\u002B\u002B3FIaTOd7sA="},{"Name":"label","Value":"_content/ASPA002_2/js/Neumann.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"213"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj\u002B\u002B3FIaTOd7sA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:37:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASPA002_2/js/Neumann.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Neumann.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj\u002B\u002B3FIaTOd7sA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"213"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AAWOtJ/0f2FBjC8XBrFtC18UseH3YIj\u002B\u002B3FIaTOd7sA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:37:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASPA002_2/Neumann.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Neumann.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YAQXBSmiaTtrNIB2/kXmMgqkuGsU\u002BU9aoE12TQ81De8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"718"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022YAQXBSmiaTtrNIB2/kXmMgqkuGsU\u002BU9aoE12TQ81De8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 11:24:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASPA002_2/Neumann.kn14nreism.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Neumann.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kn14nreism"},{"Name":"integrity","Value":"sha256-YAQXBSmiaTtrNIB2/kXmMgqkuGsU\u002BU9aoE12TQ81De8="},{"Name":"label","Value":"_content/ASPA002_2/Neumann.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"718"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022YAQXBSmiaTtrNIB2/kXmMgqkuGsU\u002BU9aoE12TQ81De8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 11:24:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

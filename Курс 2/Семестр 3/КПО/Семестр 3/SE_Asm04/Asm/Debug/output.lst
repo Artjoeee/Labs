@@ -1,0 +1,117 @@
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    12/21/24 10:30:44
+..\Deserialization\output.asm				     Page 1 - 1
+
+
+				.586P
+				.MODEL FLAT, STDCALL
+				includelib kernel32.lib
+
+				ExitProcess PROTO :DWORD
+				MessageBoxA PROTO :DWORD, :DWORD, :DWORD, :DWORD
+
+				.STACK 4096
+
+ 00000000			.DATA
+ 00000000 41 53 4D 20 4F	TEXT_MESSAGE DB "ASM Output", 0
+	   75 74 70 75 74
+	   00
+ 0000000B 6C 6F 6E 67 56	LONG_STR DB "longVar:    ", 0
+	   61 72 3A 20 20
+	   20 20 00
+ 00000018 75 69 6E 74 38	BYTE_STR DB "uint8Literal:   ", 0
+	   4C 69 74 65 72
+	   61 6C 3A 20 20
+	   20 00
+
+ 00000029			longVar QWORD 1234567890
+	   00000000499602D2
+ 00000031 24			uint8Literal BYTE 36
+
+ 00000000			.CODE
+ 00000000			main PROC
+ 00000000  A1 00000029 R	    mov eax, DWORD PTR longVar
+ 00000005  8B 15 0000002D R	    mov edx, DWORD PTR longVar + 4
+
+ 0000000B  B9 0000000A		    mov ecx, 10
+ 00000010  8D 35 00000014 R	    lea esi, LONG_STR + 9
+ 00000016  8B D8		    mov ebx, eax
+ 00000018  33 D2		    xor edx, edx
+ 0000001A			conv_long:
+ 0000001A  F7 F1		    div ecx
+ 0000001C  80 C2 30		    add dl, '0'
+ 0000001F  4E			    dec esi
+ 00000020  88 16		    mov [esi], dl
+ 00000022  33 D2		    xor edx, edx
+ 00000024  85 C0		    test eax, eax
+ 00000026  75 F2		    jnz conv_long
+
+				    invoke MessageBoxA, 0, esi, ADDR TEXT_MESSAGE, 0
+
+ 00000037  0F B6 05		    movzx eax, uint8Literal
+	   00000031 R
+ 0000003E  B9 0000000A		    mov ecx, 10
+ 00000043  8D 35 00000025 R	    lea esi, BYTE_STR + 13
+ 00000049  33 D2		    xor edx, edx
+ 0000004B			conv_byte:
+ 0000004B  F7 F1		    div ecx
+ 0000004D  80 C2 30		    add dl, '0'
+ 00000050  4E			    dec esi
+ 00000051  88 16		    mov [esi], dl
+ 00000053  33 D2		    xor edx, edx
+ 00000055  85 C0		    test eax, eax
+ 00000057  75 F2		    jnz conv_byte
+
+				    invoke MessageBoxA, 0, esi, ADDR TEXT_MESSAGE, 0
+
+ 00000068  6A 00		    push 0
+ 0000006A  E8 00000000 E	    call ExitProcess
+ 0000006F			main ENDP
+				END main
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    12/21/24 10:30:44
+..\Deserialization\output.asm				     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000032 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000006F Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000006F Public STDCALL
+  conv_long  . . . . . . . . . .	L Near	 0000001A _TEXT	
+  conv_byte  . . . . . . . . . .	L Near	 0000004B _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+BYTE_STR . . . . . . . . . . . .	Byte	 00000018 _DATA	
+LONG_STR . . . . . . . . . . . .	Byte	 0000000B _DATA	
+TEXT_MESSAGE . . . . . . . . . .	Byte	 00000000 _DATA	
+longVar  . . . . . . . . . . . .	QWord	 00000029 _DATA	
+uint8Literal . . . . . . . . . .	Byte	 00000031 _DATA	
+
+	   0 Warnings
+	   0 Errors

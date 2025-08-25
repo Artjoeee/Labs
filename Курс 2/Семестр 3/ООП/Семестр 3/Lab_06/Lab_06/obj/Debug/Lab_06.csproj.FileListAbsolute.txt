@@ -1,0 +1,14 @@
+C:\Users\HomeUser\Desktop\ООП\Lab_06\Lab_06\bin\Debug\Lab_06.exe.config
+C:\Users\HomeUser\Desktop\ООП\Lab_06\Lab_06\bin\Debug\Lab_06.exe
+C:\Users\HomeUser\Desktop\ООП\Lab_06\Lab_06\bin\Debug\Lab_06.pdb
+C:\Users\HomeUser\Desktop\ООП\Lab_06\Lab_06\obj\Debug\Lab_06.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\ООП\Lab_06\Lab_06\obj\Debug\Lab_06.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\ООП\Lab_06\Lab_06\obj\Debug\Lab_06.exe
+C:\Users\HomeUser\Desktop\ООП\Lab_06\Lab_06\obj\Debug\Lab_06.pdb
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 1\Lab_06\Lab_06\bin\Debug\Lab_06.exe.config
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 1\Lab_06\Lab_06\bin\Debug\Lab_06.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 1\Lab_06\Lab_06\bin\Debug\Lab_06.pdb
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 1\Lab_06\Lab_06\obj\Debug\Lab_06.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 1\Lab_06\Lab_06\obj\Debug\Lab_06.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 1\Lab_06\Lab_06\obj\Debug\Lab_06.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 1\Lab_06\Lab_06\obj\Debug\Lab_06.pdb

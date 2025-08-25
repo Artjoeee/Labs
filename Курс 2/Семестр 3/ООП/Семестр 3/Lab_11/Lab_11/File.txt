@@ -1,0 +1,35 @@
+Lab_11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Lab_11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+True
+True
+System.String get_CreditNumber()
+Void set_CreditNumber(System.String)
+System.String get_Name()
+Void set_Name(System.String)
+System.String ToString()
+Boolean Equals(System.Object)
+Int32 GetHashCode()
+System.Type GetType()
+System.String get_Name()
+Void set_Name(System.String)
+System.String get_CreditNumber()
+Void set_CreditNumber(System.String)
+Int32 get_Balance()
+Void set_Balance(Int32)
+System.String ToString()
+System.String GetMessage(System.String)
+Boolean Equals(System.Object)
+Int32 GetHashCode()
+System.Type GetType()
+System.String <CreditNumber>k__BackingField
+System.String <Name>k__BackingField
+System.String CreditNumber
+System.String Name
+System.String <Name>k__BackingField
+System.String <CreditNumber>k__BackingField
+Int32 <Balance>k__BackingField
+System.String Name
+System.String CreditNumber
+Int32 Balance
+Lab_11.ITest
+Void set_Balance(Int32)

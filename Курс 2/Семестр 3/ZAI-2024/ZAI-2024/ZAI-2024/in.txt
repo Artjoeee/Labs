@@ -1,0 +1,96 @@
+void function show_text()
+{
+	showline "Это программа на языке ZAI-2024";
+	return;
+}
+
+string function show_name(string name)
+{
+	return name;
+}
+
+main
+{
+	short polish = 5 + 5 * (5 + 5 * 5 + 5 * 5) + 5 * 5;
+	showline polish;
+
+	show_text();
+
+	string fio = "Жамойдо Артем Игоревич";
+	string author = show_name(fio);
+	showline author;
+
+	string str1 = "Show";
+	string str2 = "Snow";
+
+	short answer1 = comp(str1, str2);
+	short answer2 = comp(str1, str1);
+
+	showline answer1;
+	showline answer2;
+
+	if: answer2 > 0
+	{showline "Строки одинаковы";}
+	?
+	{showline "Разные строки";}
+
+	short math1 = -1 - 2;
+	short math2 = -20 + 2;
+	short math3 = 20 % 3;
+	short math4 = 20 * 2;
+	short math5 = 20 / 5;
+
+	showline math1;
+	showline math2;
+	showline math3;
+	showline math4;
+	showline math5;
+
+	short n = 32000;
+
+	short check1 = 16x11;
+	short check2 = 16x20;
+
+	short result2 = check1 + check2;
+
+	showline check1;
+	showline check2;
+	showline result2;
+
+	char chr1 = 'a';
+	showline chr1;
+
+	bool condition1 = true;
+	showline condition1;
+
+	short bin1 = 0b00000001;
+	showline bin1;
+
+	char chr2 = 'n';
+	chr2 = 'P';
+	showline chr2;
+
+	bool condition2 = false;
+	showline condition2;
+
+	short bin2 = 0b11111111;
+	showline bin2;
+
+	short sum = bin1 + bin2;
+	showline sum;
+
+	short strc1 = len(str1) + 1;
+	short strc2 = len(str2);
+
+	showline strc1;
+	showline strc2;
+
+	string text;
+
+	if: strc1 ~ strc2
+	{text = "Длины строк совпадают";}
+	?
+	{text = "Длины строк не совпадают";}
+
+	showline text;
+}

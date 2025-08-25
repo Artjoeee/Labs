@@ -1,0 +1,21 @@
+﻿Сборка начата 27.12.2024 18:30:26.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\HomeUser\Desktop\КПО\SE_Lab19\SE_asm01\SE_asm01\SE_asm01.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\SE_asm01.tlog\unsuccessfulbuild".
+       _MASM:
+       Целевой объект "_MASM" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         SE_asm01.vcxproj -> C:\Users\HomeUser\Desktop\КПО\SE_Lab19\SE_asm01\Debug\SE_asm01.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_asm01.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_asm01.tlog\SE_asm01.lastbuildstate".
+     1>Сборка проекта "C:\Users\HomeUser\Desktop\КПО\SE_Lab19\SE_asm01\SE_asm01\SE_asm01.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.06

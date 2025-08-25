@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBB7FCE-2721-4D5B-AA39-837E000C5CA8}|Lab_12\\Lab_12.csproj|C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_12\\lab_12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBB7FCE-2721-4D5B-AA39-837E000C5CA8}|Lab_12\\Lab_12.csproj|solutionrelative:lab_12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBB7FCE-2721-4D5B-AA39-837E000C5CA8}|Lab_12\\Lab_12.csproj|c:\\users\\homeuser\\desktop\\\u043E\u043E\u043F\\lab_12\\lab_12\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBB7FCE-2721-4D5B-AA39-837E000C5CA8}|Lab_12\\Lab_12.csproj|solutionrelative:lab_12\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_12\\Lab_12\\Class.cs",
+              "RelativeDocumentMoniker": "Lab_12\\Class.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_12\\Lab_12\\Class.cs",
+              "RelativeToolTip": "Lab_12\\Class.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwCgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:10:23.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_12\\Lab_12\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_12\\Program.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041E\u041E\u041F\\Lab_12\\Lab_12\\Program.cs",
+              "RelativeToolTip": "Lab_12\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:57:32.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

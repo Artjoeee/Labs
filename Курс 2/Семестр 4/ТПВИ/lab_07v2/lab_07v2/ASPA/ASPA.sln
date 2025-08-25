@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPA007", "ASPA007\ASPA007.csproj", "{82C0B38E-8135-4611-B5F1-D639B726CE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANC_25_WEBAPI_DLL", "ANC_25_WEBAPI_DLL\ANC_25_WEBAPI_DLL.csproj", "{F72B8472-C53E-453C-A9A2-E235A196EEDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82C0B38E-8135-4611-B5F1-D639B726CE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C0B38E-8135-4611-B5F1-D639B726CE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C0B38E-8135-4611-B5F1-D639B726CE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C0B38E-8135-4611-B5F1-D639B726CE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72B8472-C53E-453C-A9A2-E235A196EEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72B8472-C53E-453C-A9A2-E235A196EEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72B8472-C53E-453C-A9A2-E235A196EEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72B8472-C53E-453C-A9A2-E235A196EEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9572CBC-A4B9-4BA2-A232-5B47A9E4AA6E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,120 @@
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\Lab_02.exe.config
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\Lab_02.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\Lab_02.pdb
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.Properties.Resources.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.csproj.GenerateResource.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.pdb
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.EducationDepartmentForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.TeacherForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.ListOfReferencesForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Buffers.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.IO.Pipelines.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Memory.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Text.Json.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.ValueTuple.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Buffers.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.IO.Pipelines.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Memory.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Text.Json.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.ValueTuple.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.csproj.Up2Date
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.BudgetForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.SearchForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.SortForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02\Lab_02\obj\Debug\Lab_02.InfoForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Lab_02.exe.config
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Lab_02.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Lab_02.pdb
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Buffers.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.IO.Pipelines.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Memory.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Json.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.ValueTuple.dll
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Buffers.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.IO.Pipelines.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Memory.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Json.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.ValueTuple.xml
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.EducationDepartmentForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.TeacherForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.ListOfReferencesForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.BudgetForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.SearchForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.SortForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.InfoForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.Properties.Resources.resources
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.GenerateResource.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.Up2Date
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.exe
+C:\Users\HomeUser\Desktop\Курс 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.pdb
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Lab_02.exe.config
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Lab_02.exe
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Lab_02.pdb
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Buffers.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.IO.Pipelines.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Memory.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Json.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.ValueTuple.dll
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Buffers.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.IO.Pipelines.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Memory.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Text.Json.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\bin\Debug\System.ValueTuple.xml
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.EducationDepartmentForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.TeacherForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.ListOfReferencesForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.BudgetForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.SearchForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.SortForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.InfoForm.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.Properties.Resources.resources
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.GenerateResource.cache
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.csproj.Up2Date
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.exe
+C:\Users\HomeUser\Desktop\Курс 2\Семестр 2\ООП\Семестр 2\Lab_02-03\Lab_02\obj\Debug\Lab_02.pdb

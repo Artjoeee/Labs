@@ -1,0 +1,53 @@
+USE UNIVER;
+
+-- 4
+
+--B
+BEGIN TRANSACTION
+SELECT @@SPID
+INSERT AUDITORIUM VALUES ('412-1','LB-K',20,'412-1');
+UPDATE AUDITORIUM_TYPE SET AUDITORIUM_TYPENAME = 'Computer' 
+WHERE AUDITORIUM_TYPE = 'LB-K'       
+-------------------------- t1 --------------------
+-------------------------- t2 --------------------
+ROLLBACK;
+ 
+DELETE AUDITORIUM WHERE AUDITORIUM.AUDITORIUM = '412-1'; 
+SELECT * FROM AUDITORIUM;
+
+
+-- 5
+
+-- B
+BEGIN TRANSACTION    
+UPDATE AUDITORIUM SET AUDITORIUM_TYPE = 'LB-K' WHERE AUDITORIUM_TYPE = 'LK' 
+-------------------------- t1 --------------------
+COMMIT;
+-------------------------- t2 --------------------  
+
+
+-- 6
+
+--- B ---	
+BEGIN TRANSACTION	  
+-------------------------- t1 --------------------
+INSERT AUDITORIUM VALUES ('200-2', 'LB-K', 60, '200-2');
+UPDATE AUDITORIUM SET AUDITORIUM_NAME = '203-2' WHERE AUDITORIUM_NAME = '301-1' 
+-------------------------- t2 --------------------
+COMMIT; 
+
+
+-- 7
+
+--- B ---	
+SET TRANSACTION ISOLATION LEVEL  READ COMMITTED 
+BEGIN TRANSACTION 
+DELETE AUDITORIUM WHERE AUDITORIUM_NAME = '423-1';
+INSERT AUDITORIUM VALUES ('419-2','LK', 90, '419-2');
+UPDATE AUDITORIUM SET AUDITORIUM_NAME = '418-2' WHERE AUDITORIUM_NAME = '423-1';
+SELECT AUDITORIUM_NAME FROM AUDITORIUM WHERE AUDITORIUM_TYPE = 'LK';
+-------------------------- t1 --------------------
+COMMIT;	 
+SELECT AUDITORIUM_NAME FROM AUDITORIUM WHERE AUDITORIUM_TYPE = 'LK';
+-------------------------- t2 --------------------
+SELECT * FROM AUDITORIUM

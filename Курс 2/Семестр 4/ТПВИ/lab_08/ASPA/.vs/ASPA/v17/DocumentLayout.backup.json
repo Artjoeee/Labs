@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\filters\\celebrityasyncactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\filters\\celebrityasyncactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\views\\celebrity\\human.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\views\\celebrity\\human.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\controllers\\celebritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\controllers\\celebritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\controllers\\newcelebritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\controllers\\newcelebritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\helpers\\celebrityhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\helpers\\celebrityhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|c:\\users\\homeuser\\desktop\\\u043A\u0443\u0440\u0441 2\\\u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0442\u043F\u0432\u0438\\lab_08\\aspa\\aspa008_1\\models\\celebritymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28465534-4BAD-4614-A699-C4DA84DCB858}|ASPA008_1\\ASPA008_1.csproj|solutionrelative:aspa008_1\\models\\celebritymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASPA008_1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASPA008_1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T17:46:17.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CelebrityHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Helpers\\CelebrityHelpers.cs",
+              "RelativeDocumentMoniker": "ASPA008_1\\Helpers\\CelebrityHelpers.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Helpers\\CelebrityHelpers.cs",
+              "RelativeToolTip": "ASPA008_1\\Helpers\\CelebrityHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:27:49.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewCelebrityController.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Controllers\\NewCelebrityController.cs",
+              "RelativeDocumentMoniker": "ASPA008_1\\Controllers\\NewCelebrityController.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Controllers\\NewCelebrityController.cs",
+              "RelativeToolTip": "ASPA008_1\\Controllers\\NewCelebrityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:25:49.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CelebrityController.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Controllers\\CelebrityController.cs",
+              "RelativeDocumentMoniker": "ASPA008_1\\Controllers\\CelebrityController.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Controllers\\CelebrityController.cs",
+              "RelativeToolTip": "ASPA008_1\\Controllers\\CelebrityController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:40:47.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CelebrityModel.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Models\\CelebrityModel.cs",
+              "RelativeDocumentMoniker": "ASPA008_1\\Models\\CelebrityModel.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Models\\CelebrityModel.cs",
+              "RelativeToolTip": "ASPA008_1\\Models\\CelebrityModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:40:25.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CelebrityAsyncActionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Filters\\CelebrityAsyncActionFilter.cs",
+              "RelativeDocumentMoniker": "ASPA008_1\\Filters\\CelebrityAsyncActionFilter.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Filters\\CelebrityAsyncActionFilter.cs",
+              "RelativeToolTip": "ASPA008_1\\Filters\\CelebrityAsyncActionFilter.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T12:50:41.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Human.cshtml",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Views\\Celebrity\\Human.cshtml",
+              "RelativeDocumentMoniker": "ASPA008_1\\Views\\Celebrity\\Human.cshtml",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Views\\Celebrity\\Human.cshtml",
+              "RelativeToolTip": "ASPA008_1\\Views\\Celebrity\\Human.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T12:20:22.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA008_1\\Program.cs",
+              "ToolTip": "C:\\Users\\HomeUser\\Desktop\\\u041A\u0443\u0440\u0441 2\\\u0421\u0435\u043C\u0435\u0441\u0442\u0440 2\\\u0422\u041F\u0412\u0418\\lab_08\\ASPA\\ASPA008_1\\Program.cs",
+              "RelativeToolTip": "ASPA008_1\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:14:27.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

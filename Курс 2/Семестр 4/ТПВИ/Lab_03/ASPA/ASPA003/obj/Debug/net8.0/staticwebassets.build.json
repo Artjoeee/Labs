@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "zMKqpfwdVlgix9ZJN7THWU/47vRqT2lxHUJ6g0WLr4A=",
+  "Source": "ASPA003",
+  "BasePath": "_content/ASPA003",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPA003\\wwwroot",
+      "Source": "ASPA003",
+      "ContentRoot": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\ТПВИ\\Lab_03\\ASPA\\ASPA003\\wwwroot\\",
+      "BasePath": "_content/ASPA003",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

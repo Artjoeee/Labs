@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Список дел</h1>
+
+    <div>
+        <input type="text" id="task-name" placeholder="Введите название задачи" />
+        <button onclick="addTask()">Добавить</button>
+    </div>
+
+    <div>
+        <button onclick="filterTasksInList('all')">Показать все</button>
+        <button onclick="filterTasksInList('completed')">Показать выполненные</button>
+        <button onclick="filterTasksInList('notCompleted')">Показать невыполненные</button>
+    </div>
+
+    <ul id="task-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

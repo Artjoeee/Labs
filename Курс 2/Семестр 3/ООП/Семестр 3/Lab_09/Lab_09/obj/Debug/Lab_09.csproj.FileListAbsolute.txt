@@ -1,0 +1,7 @@
+C:\Users\HomeUser\Desktop\ООП\Lab_09\Lab_09\bin\Debug\Lab_09.exe.config
+C:\Users\HomeUser\Desktop\ООП\Lab_09\Lab_09\bin\Debug\Lab_09.exe
+C:\Users\HomeUser\Desktop\ООП\Lab_09\Lab_09\bin\Debug\Lab_09.pdb
+C:\Users\HomeUser\Desktop\ООП\Lab_09\Lab_09\obj\Debug\Lab_09.csproj.AssemblyReference.cache
+C:\Users\HomeUser\Desktop\ООП\Lab_09\Lab_09\obj\Debug\Lab_09.csproj.CoreCompileInputs.cache
+C:\Users\HomeUser\Desktop\ООП\Lab_09\Lab_09\obj\Debug\Lab_09.exe
+C:\Users\HomeUser\Desktop\ООП\Lab_09\Lab_09\obj\Debug\Lab_09.pdb

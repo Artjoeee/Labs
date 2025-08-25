@@ -1,0 +1,8 @@
+﻿{
+  "Celebrities": {
+    "PhotosFolder": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\Семестр 2\\ТПВИ\\Lab_07\\ASPA\\ASPA007\\wwwroot\\Celebrities",
+    "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=CELEBRITIES;Trusted_Connection=True;",
+    "PhotosRequestPath": "./Photos",
+    "CountryCodes": "C:\\Users\\HomeUser\\Desktop\\Курс 2\\Семестр 2\\ТПВИ\\Lab_07\\ASPA\\ANC_25_WEBAPI_DLL\\country-codes.json"
+  }
+}

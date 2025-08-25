@@ -1,0 +1,32 @@
+[
+  {
+    "Book": null,
+    "Author": null,
+    "Year": null,
+    "BookInfo": "Основы программирования - Основыч Б. Б. - 2005"
+  },
+  {
+    "Book": null,
+    "Author": null,
+    "Year": null,
+    "BookInfo": "Изучение JavaScript - Скриптыч П. П. - 2015"
+  },
+  {
+    "Book": null,
+    "Author": null,
+    "Year": null,
+    "BookInfo": "Программирование на C# - Шарпыч Г. Г. - 2017"
+  },
+  {
+    "Book": null,
+    "Author": null,
+    "Year": null,
+    "BookInfo": "Бойцовский клуб - Чак Паланик - 1996"
+  },
+  {
+    "Book": "Поваренная книга",
+    "Author": "Гурман",
+    "Year": "1970",
+    "BookInfo": "Поваренная книга - Гурман - 1970"
+  }
+]
